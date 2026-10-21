@@ -59,3 +59,35 @@ export async function deleteImage(publicId: string): Promise<void> {
   ensureConfig();
   await cloudinary.uploader.destroy(publicId);
 }
+
+/**
+ * Sube un buffer de cualquier tipo (PDF incluido) con resource_type auto.
+ * Para los resultados de exámenes, que pueden ser imagen o documento.
+ */
+export function uploadFile(
+  buffer: Buffer,
+  folder = DEFAULT_FOLDER,
+): Promise<{ url: string; publicId: string }> {
+  ensureConfig();
+  return new Promise((resolve, reject) => {
+    const stream = cloudinary.uploader.upload_stream(
+      { folder, resource_type: "auto" },
+      (error, result?: UploadApiResponse) => {
+        if (error || !result) return reject(error || new Error("Cloudinary sin respuesta"));
+        resolve({ url: result.secure_url, publicId: result.public_id });
+      },
+    );
+    stream.end(buffer);
+  });
+}
+
+/**
+ * Borra un archivo subido con resource_type auto. Cloudinary guarda el tipo
+ * real (image o raw) y destroy exige acertarlo, así que se intentan ambos.
+ */
+export async function deleteFile(publicId: string): Promise<void> {
+  ensureConfig();
+  const asImage = await cloudinary.uploader.destroy(publicId, { resource_type: "image" });
+  if (asImage?.result === "ok") return;
+  await cloudinary.uploader.destroy(publicId, { resource_type: "raw" });
+}
