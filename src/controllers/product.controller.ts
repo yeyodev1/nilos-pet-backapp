@@ -22,7 +22,7 @@ export async function listPublic(req: Request, res: Response, next: NextFunction
 /** GET /api/products/:slug — solo publicados. */
 export async function getBySlug(req: Request, res: Response, next: NextFunction) {
   try {
-    const product = await productService.getBySlug(req.params.slug);
+    const product = await productService.getBySlug(String(req.params.slug));
     res.status(200).json(product);
   } catch (error) {
     next(error);
@@ -50,7 +50,7 @@ export async function listAdmin(req: Request, res: Response, next: NextFunction)
 /** GET /api/admin/products/:id */
 export async function getById(req: Request, res: Response, next: NextFunction) {
   try {
-    const product = await productService.getById(req.params.id);
+    const product = await productService.getById(String(req.params.id));
     res.status(200).json(product);
   } catch (error) {
     next(error);
@@ -70,7 +70,7 @@ export async function create(req: Request, res: Response, next: NextFunction) {
 /** PUT /api/admin/products/:id */
 export async function update(req: Request, res: Response, next: NextFunction) {
   try {
-    const product = await productService.update(req.params.id, req.body ?? {});
+    const product = await productService.update(String(req.params.id), req.body ?? {});
     res.status(200).json(product);
   } catch (error) {
     next(error);
@@ -80,7 +80,7 @@ export async function update(req: Request, res: Response, next: NextFunction) {
 /** DELETE /api/admin/products/:id */
 export async function remove(req: Request, res: Response, next: NextFunction) {
   try {
-    await productService.remove(req.params.id);
+    await productService.remove(String(req.params.id));
     res.status(204).end();
   } catch (error) {
     next(error);
@@ -91,7 +91,7 @@ export async function remove(req: Request, res: Response, next: NextFunction) {
 export async function addImage(req: Request, res: Response, next: NextFunction) {
   try {
     if (!req.file?.buffer) throw new CustomError("Adjunta una imagen", 400);
-    const product = await productService.addImage(req.params.id, req.file.buffer);
+    const product = await productService.addImage(String(req.params.id), req.file.buffer);
     res.status(201).json(product);
   } catch (error) {
     next(error);
@@ -102,7 +102,10 @@ export async function addImage(req: Request, res: Response, next: NextFunction) 
 export async function removeImage(req: Request, res: Response, next: NextFunction) {
   try {
     // Express ya decodifica el %2F del publicId de Cloudinary (carpeta/archivo).
-    const product = await productService.removeImage(req.params.id, req.params.publicId);
+    const product = await productService.removeImage(
+      String(req.params.id),
+      String(req.params.publicId),
+    );
     res.status(200).json(product);
   } catch (error) {
     next(error);
