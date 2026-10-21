@@ -60,10 +60,20 @@ export async function listCustomers(filters: { search?: string; page?: number })
 
   const total = await User.countDocuments(query);
   const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
-  const items = await User.find(query)
+  const docs = await User.find(query)
     .sort({ createdAt: -1 })
     .skip((page - 1) * PAGE_SIZE)
     .limit(PAGE_SIZE);
+
+  // Misma forma que la sesión (/auth/me): id plano, sin _id de Mongo.
+  const items = docs.map((user: any) => ({
+    id: user._id.toString(),
+    email: user.email,
+    name: user.name,
+    phone: user.phone,
+    accountType: user.accountType,
+    createdAt: user.createdAt,
+  }));
 
   return { items, total, page, pages };
 }
