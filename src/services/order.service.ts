@@ -47,7 +47,9 @@ export async function createOrder(input: CreateOrderInput, userId: string | null
 
   const customer = {
     name: String(input.customer?.name ?? "").trim(),
-    email: String(input.customer?.email ?? "").trim().toLowerCase(),
+    email: String(input.customer?.email ?? "")
+      .trim()
+      .toLowerCase(),
     phone: String(input.customer?.phone ?? "").trim(),
     documentId: String(input.customer?.documentId ?? "").trim(),
   };
