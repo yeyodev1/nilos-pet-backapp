@@ -31,7 +31,7 @@ export async function list(req: Request, res: Response, next: NextFunction) {
 export async function updateStatus(req: Request, res: Response, next: NextFunction) {
   try {
     const booking = await bookingService.updateStatus(
-      req.params.id,
+      String(req.params.id),
       String(req.body?.status ?? ""),
     );
     res.status(200).json(booking);
