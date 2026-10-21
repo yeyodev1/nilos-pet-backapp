@@ -1,0 +1,3163 @@
+{
+  "categories": [
+    "Accesorios para gatos",
+    "Accesorios para perros",
+    "Alimento para gatos",
+    "Alimento para perros",
+    "Camas y descanso",
+    "Desparasitantes",
+    "Higiene y cosmetica",
+    "Hogar y control de plagas",
+    "Juguetes",
+    "Medicamentos",
+    "Snacks",
+    "Sustitutos lacteos",
+    "Vitaminas y suplementos"
+  ],
+  "items": [
+    {
+      "code": "P257470",
+      "name": "Proteggo 1M de 2 a 4.5 kg",
+      "slug": "proteggo-1m-de-2-a-4-5-kg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P257469",
+      "name": "Proteggo 1M de 2 a 4.5 kg",
+      "slug": "proteggo-1m-de-2-a-4-5-kg-p257469",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P257173",
+      "name": "Correa corrugada REF 8711",
+      "slug": "correa-corrugada-ref-8711",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P257171",
+      "name": "Pechera Pet Wan REF 820",
+      "slug": "pechera-pet-wan-ref-820",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P257163",
+      "name": "Correa Simple REF 816",
+      "slug": "correa-simple-ref-816",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P257162",
+      "name": "Juguete peluche REF 976",
+      "slug": "juguete-peluche-ref-976",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P257161",
+      "name": "Juguete Raton REF 726",
+      "slug": "juguete-raton-ref-726",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P257159",
+      "name": "Juguete hueso pelota REF 841",
+      "slug": "juguete-hueso-pelota-ref-841",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P257156",
+      "name": "Juguete hueso multicolor",
+      "slug": "juguete-hueso-multicolor",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P257155",
+      "name": "Correa retráctil",
+      "slug": "correa-retractil",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P257151",
+      "name": "Collar lazo Pescado REF 478",
+      "slug": "collar-lazo-pescado-ref-478",
+      "category": "Accesorios para perros",
+      "rawCategory": "Bisuterías",
+      "type": "physical"
+    },
+    {
+      "code": "P257150",
+      "name": "Collar lazo REF 477",
+      "slug": "collar-lazo-ref-477",
+      "category": "Accesorios para perros",
+      "rawCategory": "Bisuterías",
+      "type": "physical"
+    },
+    {
+      "code": "P256880",
+      "name": "Fortihepat suspension oral",
+      "slug": "fortihepat-suspension-oral",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos oral",
+      "type": "physical"
+    },
+    {
+      "code": "P256879",
+      "name": "Alfa 3 tubo x 30 ml",
+      "slug": "alfa-3-tubo-x-30-ml",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P256877",
+      "name": "Frontiline spray 100 ml",
+      "slug": "frontiline-spray-100-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos topico",
+      "type": "physical"
+    },
+    {
+      "code": "P256538",
+      "name": "Pack 5 sobres I choo 60 gr",
+      "slug": "pack-5-sobres-i-choo-60-gr",
+      "category": "Snacks",
+      "rawCategory": "Snack",
+      "type": "physical"
+    },
+    {
+      "code": "P256524",
+      "name": "ND prime Canino cachorro mini 2.5 kg",
+      "slug": "nd-prime-canino-cachorro-mini-2-5-kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P256521",
+      "name": "ND Prime Feline Adulto castrado 1.5 kg",
+      "slug": "nd-prime-feline-adulto-castrado-1-5-kg",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P255978",
+      "name": "Imperia 2.5 a 5 kg VERDE",
+      "slug": "imperia-2-5-a-5-kg-verde",
+      "category": "Desparasitantes",
+      "rawCategory": "Desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P255977",
+      "name": "Vantaggio Rojo 4 a 10 kg",
+      "slug": "vantaggio-rojo-4-a-10-kg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Topica",
+      "type": "physical"
+    },
+    {
+      "code": "P255976",
+      "name": "Imperia 10 a 20 kg ROJO",
+      "slug": "imperia-10-a-20-kg-rojo",
+      "category": "Desparasitantes",
+      "rawCategory": "Desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P255975",
+      "name": "Imperia 5 a 10 kg MORADA",
+      "slug": "imperia-5-a-10-kg-morada",
+      "category": "Desparasitantes",
+      "rawCategory": "Desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P255974",
+      "name": "Proteggo 1M 10 a 20 kg",
+      "slug": "proteggo-1m-10-a-20-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "Desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P255973",
+      "name": "Proteggo 1M 4.5 a 10 kg MORADO",
+      "slug": "proteggo-1m-4-5-a-10-kg-morado",
+      "category": "Desparasitantes",
+      "rawCategory": "Desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P255597",
+      "name": "UVITA Gel Oral (GATOS)",
+      "slug": "uvita-gel-oral-gatos",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P255579",
+      "name": "Uniletas forte CP",
+      "slug": "uniletas-forte-cp",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P255569",
+      "name": "PROPANTELINA TRITON TAB",
+      "slug": "propantelina-triton-tab",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P254343",
+      "name": "Terapia Alternativa felinos 200mg UYWA",
+      "slug": "terapia-alternativa-felinos-200mg-uywa",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P253156",
+      "name": "Pechera Nilos REF 957",
+      "slug": "pechera-nilos-ref-957",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P253155",
+      "name": "Juguete Hueso duro REF 282",
+      "slug": "juguete-hueso-duro-ref-282",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P253085",
+      "name": "COVER 250ML",
+      "slug": "cover-250ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Topica",
+      "type": "physical"
+    },
+    {
+      "code": "P253084",
+      "name": "FINISH SHAMPOO 500ML",
+      "slug": "finish-shampoo-500ml",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Higiene para mascotas",
+      "type": "physical"
+    },
+    {
+      "code": "P253083",
+      "name": "BLANCH SHAMPOO 500ML",
+      "slug": "blanch-shampoo-500ml",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Higiene para mascotas",
+      "type": "physical"
+    },
+    {
+      "code": "P253050",
+      "name": "REPEXXIN COLLAR PERRO GRANDE 45G",
+      "slug": "repexxin-collar-perro-grande-45g",
+      "category": "Desparasitantes",
+      "rawCategory": "Desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P253048",
+      "name": "NOVA CARE SKIN BARRIER SUPPORT",
+      "slug": "nova-care-skin-barrier-support",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P253047",
+      "name": "DIARRELAB 100ml",
+      "slug": "diarrelab-100ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P253046",
+      "name": "Protech gatos 1kg_5kg",
+      "slug": "protech-gatos-1kg-5kg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Topica",
+      "type": "physical"
+    },
+    {
+      "code": "P253045",
+      "name": "Protech 1kg _4kg",
+      "slug": "protech-1kg-4kg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Topica",
+      "type": "physical"
+    },
+    {
+      "code": "P253003",
+      "name": "Alimento res y salmon 200g NATURAL CHOICE",
+      "slug": "alimento-res-y-salmon-200g-natural-choice",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P253000",
+      "name": "Alimento pollo y salmon 200g NATURAL CHOICE",
+      "slug": "alimento-pollo-y-salmon-200g-natural-choice",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P252303",
+      "name": "AUDICLEAN 90ML",
+      "slug": "audiclean-90ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento OTICO",
+      "type": "physical"
+    },
+    {
+      "code": "P252302",
+      "name": "VETTER MELOXIPAW 1.5MG 10ML",
+      "slug": "vetter-meloxipaw-1-5mg-10ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P252301",
+      "name": "VETTER MELOXIPAW CATS 0.5MG 30ML",
+      "slug": "vetter-meloxipaw-cats-0-5mg-30ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P252284",
+      "name": "GOLDEN GATOS CASTRADOS 3KG FUNDA NEGRA",
+      "slug": "golden-gatos-castrados-3kg-funda-negra",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P252283",
+      "name": "GOLDEN COOKIES PERROS CACHORROS SALMON Y QUINOA 350GR",
+      "slug": "golden-cookies-perros-cachorros-salmon-y-quinoa-350gr",
+      "category": "Alimento para perros",
+      "rawCategory": "alimento para perro",
+      "type": "physical"
+    },
+    {
+      "code": "P252282",
+      "name": "SALMOIL RICETTA 5 PIEL Y PELA JE 500ML",
+      "slug": "salmoil-ricetta-5-piel-y-pela-je-500ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitaminas",
+      "type": "physical"
+    },
+    {
+      "code": "P252281",
+      "name": "SALMOIL RICETTA 5 PIEL Y PELA JE 150ML",
+      "slug": "salmoil-ricetta-5-piel-y-pela-je-150ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitaminas",
+      "type": "physical"
+    },
+    {
+      "code": "P252276",
+      "name": "salmoil ricetta 2 bienestar intestinal 950ml",
+      "slug": "salmoil-ricetta-2-bienestar-intestinal-950ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitaminas",
+      "type": "physical"
+    },
+    {
+      "code": "P252275",
+      "name": "salmoil ricetta 1 bienestar renal 950ml",
+      "slug": "salmoil-ricetta-1-bienestar-renal-950ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitaminas",
+      "type": "physical"
+    },
+    {
+      "code": "P252268",
+      "name": "Numelvi TAB 31.6mg UNIDAD",
+      "slug": "numelvi-tab-31-6mg-unidad",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P252266",
+      "name": "BRAVECTO 40 A 56KG (1400MG)",
+      "slug": "bravecto-40-a-56kg-1400mg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P252264",
+      "name": "BRAVECTO 1000MG 20 A 40KG CELESTE",
+      "slug": "bravecto-1000mg-20-a-40kg-celeste",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P252261",
+      "name": "Golden Formula Perros adultospequeños Salmon yarroz 3 kg",
+      "slug": "golden-formula-perros-adultospequenos-salmon-yarroz-3-kg",
+      "category": "Alimento para perros",
+      "rawCategory": "alimento para perro",
+      "type": "physical"
+    },
+    {
+      "code": "P252257",
+      "name": "Eritros DOG TAB 18g",
+      "slug": "eritros-dog-tab-18g",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitaminas",
+      "type": "physical"
+    },
+    {
+      "code": "P252251",
+      "name": "Doxipet 100 mg Paraqueños",
+      "slug": "doxipet-100-mg-paraquenos",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P252245",
+      "name": "Complete mix pet A Z TABS 120 GR",
+      "slug": "complete-mix-pet-a-z-tabs-120-gr",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitaminas",
+      "type": "physical"
+    },
+    {
+      "code": "P252244",
+      "name": "Churu bites perro pollo con wraps de salmon UNIDAD",
+      "slug": "churu-bites-perro-pollo-con-wraps-de-salmon-unidad",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P252241",
+      "name": "Churu bites perro pollo con wraps de atun UNIDAD",
+      "slug": "churu-bites-perro-pollo-con-wraps-de-atun-unidad",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P252240",
+      "name": "Churu bite Gato receta atun en wraps pollo con salmon 3pack",
+      "slug": "churu-bite-gato-receta-atun-en-wraps-pollo-con-salmon-3pack",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P252238",
+      "name": "Churu bites gato receta Atun wraps pollo 3packs",
+      "slug": "churu-bites-gato-receta-atun-wraps-pollo-3packs",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P244882",
+      "name": "BONGO FORTE JERINGA 5 ML",
+      "slug": "bongo-forte-jeringa-5-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P244862",
+      "name": "PATITAS DE POLLO VOFFY 150 GR",
+      "slug": "patitas-de-pollo-voffy-150-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P244106",
+      "name": "CANPLUSVIT 120 ML",
+      "slug": "canplusvit-120-ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P243460",
+      "name": "Atrevia Versa Gel 1 ML",
+      "slug": "atrevia-versa-gel-1-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P240995",
+      "name": "Nicilan 400–100mg TABLETA",
+      "slug": "nicilan-400-100mg-tableta",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P240994",
+      "name": "OCUFLOX COLIRIO5ml",
+      "slug": "ocuflox-colirio5ml",
+      "category": "Medicamentos",
+      "rawCategory": "Colirio",
+      "type": "physical"
+    },
+    {
+      "code": "P240308",
+      "name": "ELECTRO ZOOC SOBRE 19.5 gr",
+      "slug": "electro-zooc-sobre-19-5-gr",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P240307",
+      "name": "kyrociclin 200mg Doxiciclina",
+      "slug": "kyrociclin-200mg-doxiciclina",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P239528",
+      "name": "Body cobre talla 6",
+      "slug": "body-cobre-talla-6",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P238576",
+      "name": "Maticare crema pote 60 gramos",
+      "slug": "maticare-crema-pote-60-gramos",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina topica",
+      "type": "physical"
+    },
+    {
+      "code": "P238575",
+      "name": "Tushell pet jarabe 120 ml",
+      "slug": "tushell-pet-jarabe-120-ml",
+      "category": "Medicamentos",
+      "rawCategory": "medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P238574",
+      "name": "Recoverygastrointestinalcanine 400 gr LATA",
+      "slug": "recoverygastrointestinalcanine-400-gr-lata",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P237285",
+      "name": "Complejo B Hierro Calcio FRASCO 60 ML",
+      "slug": "complejo-b-hierro-calcio-frasco-60-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P237283",
+      "name": "Salmon Pet 250 ml",
+      "slug": "salmon-pet-250-ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitaminas",
+      "type": "physical"
+    },
+    {
+      "code": "P237279",
+      "name": "Premier Gourmet Perros Adultos Salmon y arrozintegral",
+      "slug": "premier-gourmet-perros-adultos-salmon-y-arrozintegral",
+      "category": "Alimento para perros",
+      "rawCategory": "alimento de perro",
+      "type": "physical"
+    },
+    {
+      "code": "P236292",
+      "name": "Gastrik Pet 30 tabletas",
+      "slug": "gastrik-pet-30-tabletas",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P235230",
+      "name": "ND PRIME CAN CORDERO ADULTOS MINI 2.5KG",
+      "slug": "nd-prime-can-cordero-adultos-mini-2-5kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P235229",
+      "name": "SULFATEX MASCOTAS 100ml",
+      "slug": "sulfatex-mascotas-100ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P235226",
+      "name": "Vetilea enteric",
+      "slug": "vetilea-enteric",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P234426",
+      "name": "Golden gatitos sabor pollo 1 kg FUNDA NEGRA",
+      "slug": "golden-gatitos-sabor-pollo-1-kg-funda-negra",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P234425",
+      "name": "Golden Gatoscastrados sabor pollo 1 kg FUNDA NEGRA",
+      "slug": "golden-gatoscastrados-sabor-pollo-1-kg-funda-negra",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P234390",
+      "name": "Caldo de Huesos de Res 450 ml",
+      "slug": "caldo-de-huesos-de-res-450-ml",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P234048",
+      "name": "Premier Gourmet perros adultos talla pequeña pechuga de pollo y arrozintegral 85gr",
+      "slug": "premier-gourmet-perros-adultos-talla-pequena-pechuga-de-pollo-y-arrozintegral-85gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P233201",
+      "name": "GOLDEN FORMULA PERROS ADULTOS SABOR POLLO YARROZ 20 KG",
+      "slug": "golden-formula-perros-adultos-sabor-pollo-yarroz-20-kg",
+      "category": "Alimento para perros",
+      "rawCategory": "alimento de perro",
+      "type": "physical"
+    },
+    {
+      "code": "P229589",
+      "name": "Premier gastrointestinal",
+      "slug": "premier-gastrointestinal",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P229414",
+      "name": "Alimento Cordero 250 gr NATURAL CHOICE",
+      "slug": "alimento-cordero-250-gr-natural-choice",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P229413",
+      "name": "Alimento Cordero 500 gr NATURAL cHOICE",
+      "slug": "alimento-cordero-500-gr-natural-choice",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P228657",
+      "name": "Nutrapro snacknugget gato carne higado 100g",
+      "slug": "nutrapro-snacknugget-gato-carne-higado-100g",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P228655",
+      "name": "Nutrapro Snacknugget gato pollo e hígado 110gr",
+      "slug": "nutrapro-snacknugget-gato-pollo-e-higado-110gr",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P228482",
+      "name": "Kyroderm NF",
+      "slug": "kyroderm-nf",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Topica",
+      "type": "physical"
+    },
+    {
+      "code": "P227705",
+      "name": "VETRI OMEGA GATOS FRASCO",
+      "slug": "vetri-omega-gatos-frasco",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P227704",
+      "name": "Repexxin Collar Perro pequeño y mediano",
+      "slug": "repexxin-collar-perro-pequeno-y-mediano",
+      "category": "Desparasitantes",
+      "rawCategory": "Desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P227175",
+      "name": "ND ANCESTRAL Cachorro mini 2.5 kg",
+      "slug": "nd-ancestral-cachorro-mini-2-5-kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P226185",
+      "name": "PIPETA MEGABOSS MORADO TUBO X4.7 ML 25 A 40 KG",
+      "slug": "pipeta-megaboss-morado-tubo-x4-7-ml-25-a-40-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "Desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P226184",
+      "name": "PIPETA MEGABOSS CELESTE TUBO X3.6 ML 10 A 25 KG",
+      "slug": "pipeta-megaboss-celeste-tubo-x3-6-ml-10-a-25-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "Desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P226183",
+      "name": "Fripets tableta",
+      "slug": "fripets-tableta",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasiante interno",
+      "type": "physical"
+    },
+    {
+      "code": "P226179",
+      "name": "Toracard",
+      "slug": "toracard",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P226125",
+      "name": "Pet detox forte puppy 30 ml",
+      "slug": "pet-detox-forte-puppy-30-ml",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasiante interno",
+      "type": "physical"
+    },
+    {
+      "code": "P226095",
+      "name": "BONGO COMPLEX 100 ML",
+      "slug": "bongo-complex-100-ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P219121",
+      "name": "Alimento Cerdo 1 kg NATURAL CHOICE",
+      "slug": "alimento-cerdo-1-kg-natural-choice",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P218983",
+      "name": "OTIDERMA CEF 15 ML",
+      "slug": "otiderma-cef-15-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento otico",
+      "type": "physical"
+    },
+    {
+      "code": "P218356",
+      "name": "BRILLOBEST CHAMPÚ ROMERO SACHET",
+      "slug": "brillobest-champu-romero-sachet",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P218350",
+      "name": "BRILLOBEST CHAMPÚMANZANILLA",
+      "slug": "brillobest-champumanzanilla",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P218348",
+      "name": "ACTIVITY-FORM POUCHESX30TAB",
+      "slug": "activity-form-pouchesx30tab",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P218347",
+      "name": "Puppy form pouches 30 tabletas",
+      "slug": "puppy-form-pouches-30-tabletas",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P217782",
+      "name": "PROMUN DOG TABS 52,5 GR",
+      "slug": "promun-dog-tabs-52-5-gr",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P217778",
+      "name": "PREMIER GOURMET GATOS CASTRADOS ATUN Y ARROZ INTEGRAL 70 GR",
+      "slug": "premier-gourmet-gatos-castrados-atun-y-arroz-integral-70-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P217775",
+      "name": "NUTRIFULL CAT 30 ML",
+      "slug": "nutrifull-cat-30-ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina gato",
+      "type": "physical"
+    },
+    {
+      "code": "P217771",
+      "name": "PREMIER GOURMET PERROS ADULTOS DE TALLA MEDIANA Y GRANDEPECHUGA DE POLLO, BATATA Y BROCOLI 85 GR",
+      "slug": "premier-gourmet-perros-adultos-de-talla-mediana-y-grandepechuga-de-pollo-batata-y-brocoli-85-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P217769",
+      "name": "Hueso pechuga de pollo 3 unidadesREF 6145",
+      "slug": "hueso-pechuga-de-pollo-3-unidadesref-6145",
+      "category": "Snacks",
+      "rawCategory": "Snacks",
+      "type": "physical"
+    },
+    {
+      "code": "P217752",
+      "name": "NEXGARD SPECTRA2–3.5KG Naranja",
+      "slug": "nexgard-spectra2-3-5kg-naranja",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P217738",
+      "name": "ND Ancestral Gatos adulto castrado",
+      "slug": "nd-ancestral-gatos-adulto-castrado",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P217675",
+      "name": "Premier Gourmet pollo y arrozintegral GATITOS",
+      "slug": "premier-gourmet-pollo-y-arrozintegral-gatitos",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P217674",
+      "name": "Classica 20 mg",
+      "slug": "classica-20-mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P217344",
+      "name": "SIMPARICA TRIO 2.5- 5 KG",
+      "slug": "simparica-trio-2-5-5-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P217028",
+      "name": "Drenador multidren",
+      "slug": "drenador-multidren",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P216352",
+      "name": "BODY COBRE TALLA 8",
+      "slug": "body-cobre-talla-8",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P215883",
+      "name": "CYSTAID CAPS UNIDAD",
+      "slug": "cystaid-caps-unidad",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P215793",
+      "name": "Nicilan 40mg amoxicilina 10 mg ac clavulanico",
+      "slug": "nicilan-40mg-amoxicilina-10-mg-ac-clavulanico",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P215792",
+      "name": "Adofilm crema tubo 60 gr",
+      "slug": "adofilm-crema-tubo-60-gr",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Topica",
+      "type": "physical"
+    },
+    {
+      "code": "P215767",
+      "name": "SIMPARICA TRIO 20- 40 KG",
+      "slug": "simparica-trio-20-40-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P215764",
+      "name": "SIMPARICA TRIO 5 - 10 KG",
+      "slug": "simparica-trio-5-10-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P215708",
+      "name": "SIMPARICA TRIO 10 A 20KG",
+      "slug": "simparica-trio-10-a-20kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P214970",
+      "name": "VETRI COFACTOR 60 TAB",
+      "slug": "vetri-cofactor-60-tab",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P214968",
+      "name": "Cidar tab perro 6 a 12 kg",
+      "slug": "cidar-tab-perro-6-a-12-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P214967",
+      "name": "Cidar tab perro 25 a 50 kg",
+      "slug": "cidar-tab-perro-25-a-50-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P214965",
+      "name": "Cidar tab perro 3.1 a 6 kg",
+      "slug": "cidar-tab-perro-3-1-a-6-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P214964",
+      "name": "Cidar tab perro 1.5 kg a 3 kg",
+      "slug": "cidar-tab-perro-1-5-kg-a-3-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P214963",
+      "name": "Cidar tab gato 3.1 a 6 kg",
+      "slug": "cidar-tab-gato-3-1-a-6-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P214962",
+      "name": "Cidar tab gato 1.5 a 3kg",
+      "slug": "cidar-tab-gato-1-5-a-3kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P214961",
+      "name": "CHURU NOURISH",
+      "slug": "churu-nourish",
+      "category": "Snacks",
+      "rawCategory": "Snacks",
+      "type": "physical"
+    },
+    {
+      "code": "P214839",
+      "name": "PASTILLAANTIPARASITARIACIDAR PERROS 12 A 25 KG",
+      "slug": "pastillaantiparasitariacidar-perros-12-a-25-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P213372",
+      "name": "COLLAR ISABELINO 25 CM",
+      "slug": "collar-isabelino-25-cm",
+      "category": "Accesorios para perros",
+      "rawCategory": "accesorio",
+      "type": "physical"
+    },
+    {
+      "code": "P213371",
+      "name": "COLLAR ISABELINO 20 CM TALLA M",
+      "slug": "collar-isabelino-20-cm-talla-m",
+      "category": "Accesorios para perros",
+      "rawCategory": "accesorio",
+      "type": "physical"
+    },
+    {
+      "code": "P213370",
+      "name": "COLLAR ISABELINO 15 CM S",
+      "slug": "collar-isabelino-15-cm-s",
+      "category": "Accesorios para perros",
+      "rawCategory": "accesorio",
+      "type": "physical"
+    },
+    {
+      "code": "P213369",
+      "name": "DOXI INPEL 100ml",
+      "slug": "doxi-inpel-100ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P211860",
+      "name": "Pechera Titan REF 807 TALLA L",
+      "slug": "pechera-titan-ref-807-talla-l",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P211023",
+      "name": "Nacotil solucion otica 125ml",
+      "slug": "nacotil-solucion-otica-125ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento otico",
+      "type": "physical"
+    },
+    {
+      "code": "P211019",
+      "name": "Prednisol gotas frasco 15 ml",
+      "slug": "prednisol-gotas-frasco-15-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P209557",
+      "name": "Pet Guardian Trio Plus spot on 6.26 a 12.5kg",
+      "slug": "pet-guardian-trio-plus-spot-on-6-26-a-12-5kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P209455",
+      "name": "TAPETES PAPEE UNIDAD",
+      "slug": "tapetes-papee-unidad",
+      "category": "Accesorios para perros",
+      "rawCategory": "accesorio",
+      "type": "physical"
+    },
+    {
+      "code": "P209448",
+      "name": "DENTAL PET SPRAY",
+      "slug": "dental-pet-spray",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P209446",
+      "name": "LECHE PERROLAC 250 GR",
+      "slug": "leche-perrolac-250-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P208199",
+      "name": "Advance diets Perro Gastroenteric",
+      "slug": "advance-diets-perro-gastroenteric",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P208194",
+      "name": "Advance diets GATOS GASTROSENSITIVE 1.5 KG",
+      "slug": "advance-diets-gatos-gastrosensitive-1-5-kg",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P208193",
+      "name": "Leonardo Rico en Ternera 200 gr",
+      "slug": "leonardo-rico-en-ternera-200-gr",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P208192",
+      "name": "Leonardo Rico en Higado 200 gr",
+      "slug": "leonardo-rico-en-higado-200-gr",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P208191",
+      "name": "Leonardo Rico en Pato 200 gr",
+      "slug": "leonardo-rico-en-pato-200-gr",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P208190",
+      "name": "Leonardo Rico en Pescado 200 gr",
+      "slug": "leonardo-rico-en-pescado-200-gr",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P208139",
+      "name": "Ruiland Vetri-Omega 60 tabletas",
+      "slug": "ruiland-vetri-omega-60-tabletas",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitaminas",
+      "type": "physical"
+    },
+    {
+      "code": "P207487",
+      "name": "ALIMENTO PAVO 250 GR",
+      "slug": "alimento-pavo-250-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P207484",
+      "name": "ALIMENTO PAVO 1KG",
+      "slug": "alimento-pavo-1kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P207482",
+      "name": "ALIMENTO CERDO 250 GR",
+      "slug": "alimento-cerdo-250-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P207480",
+      "name": "ALIMENTO CERDO 500 GR",
+      "slug": "alimento-cerdo-500-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P207478",
+      "name": "ALIMENTO RES 250 GR",
+      "slug": "alimento-res-250-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P207476",
+      "name": "ALIMENTO RES 500 GR",
+      "slug": "alimento-res-500-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P207475",
+      "name": "ALIMENTO RES 1 KG",
+      "slug": "alimento-res-1-kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P207473",
+      "name": "ALIMENTO POLLO 250 GR",
+      "slug": "alimento-pollo-250-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P207468",
+      "name": "ALIMENTO POLLO 500 GR",
+      "slug": "alimento-pollo-500-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P207462",
+      "name": "ALIMENTO POLLO 1KG",
+      "slug": "alimento-pollo-1kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P207425",
+      "name": "Gel fitovete 15 gr",
+      "slug": "gel-fitovete-15-gr",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento topico",
+      "type": "physical"
+    },
+    {
+      "code": "P207423",
+      "name": "CREMA FITOVETE 15 GR",
+      "slug": "crema-fitovete-15-gr",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento topico",
+      "type": "physical"
+    },
+    {
+      "code": "P207148",
+      "name": "Calcio fosforo COMPRIMIDO",
+      "slug": "calcio-fosforo-comprimido",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P207146",
+      "name": "TALCO OPIGAL 120gr",
+      "slug": "talco-opigal-120gr",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Topica",
+      "type": "physical"
+    },
+    {
+      "code": "P206483",
+      "name": "Credelio plus tab2.8 A 5.5 kg ROSADA",
+      "slug": "credelio-plus-tab2-8-a-5-5-kg-rosada",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P206481",
+      "name": "Credelio plus tab 11 a 22 kg VERDE",
+      "slug": "credelio-plus-tab-11-a-22-kg-verde",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P206450",
+      "name": "Credelio plus tab1.3 a 2.8 kg AMARILLA",
+      "slug": "credelio-plus-tab1-3-a-2-8-kg-amarilla",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P206074",
+      "name": "Credelio plus tab5.5 a 11 kg NARANJA",
+      "slug": "credelio-plus-tab5-5-a-11-kg-naranja",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P206073",
+      "name": "Clavupet Suspension",
+      "slug": "clavupet-suspension",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P206063",
+      "name": "ACIFLUX TABLETAS 500MG",
+      "slug": "aciflux-tabletas-500mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P206062",
+      "name": "Nefrotec DS Tab",
+      "slug": "nefrotec-ds-tab",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P205986",
+      "name": "Jabon de Fipronil Petz",
+      "slug": "jabon-de-fipronil-petz",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P205853",
+      "name": "Snack Meat lover pollo y curcuma 60 gr",
+      "slug": "snack-meat-lover-pollo-y-curcuma-60-gr",
+      "category": "Snacks",
+      "rawCategory": "snack",
+      "type": "physical"
+    },
+    {
+      "code": "P205851",
+      "name": "Mas Can Meat lover 60 gr",
+      "slug": "mas-can-meat-lover-60-gr",
+      "category": "Snacks",
+      "rawCategory": "snack",
+      "type": "physical"
+    },
+    {
+      "code": "P205850",
+      "name": "Hueso pechuga de pollo 6146",
+      "slug": "hueso-pechuga-de-pollo-6146",
+      "category": "Snacks",
+      "rawCategory": "snack",
+      "type": "physical"
+    },
+    {
+      "code": "P205509",
+      "name": "HIMPYRIN LIQUIDO BOTELLA X 30ML",
+      "slug": "himpyrin-liquido-botella-x-30ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P204410",
+      "name": "ASBRIP PETS 30ML JARABE",
+      "slug": "asbrip-pets-30ml-jarabe",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P203649",
+      "name": "COMPLEJO B TEX 60ML",
+      "slug": "complejo-b-tex-60ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P203528",
+      "name": "BRAVECTO 500MG 10 A 20Kg (500MG)",
+      "slug": "bravecto-500mg-10-a-20kg-500mg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P203527",
+      "name": "BRAVECTO 250MG4.5 A 10KG (250MG)",
+      "slug": "bravecto-250mg4-5-a-10kg-250mg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P203526",
+      "name": "BRAVECTO 2 A4.5KG AMARILLO (112.5 mg)",
+      "slug": "bravecto-2-a4-5kg-amarillo-112-5-mg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P203513",
+      "name": "AMOXITABS 250MG",
+      "slug": "amoxitabs-250mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P203491",
+      "name": "VITAPET 60N TAB",
+      "slug": "vitapet-60n-tab",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P203489",
+      "name": "Pet guardian Trio Plus gatos dosis",
+      "slug": "pet-guardian-trio-plus-gatos-dosis",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P203488",
+      "name": "DEFENSE PET 120 ML",
+      "slug": "defense-pet-120-ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P203022",
+      "name": "BROMEXIN X 60 ML",
+      "slug": "bromexin-x-60-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P200809",
+      "name": "GABAPENTINA 300MG",
+      "slug": "gabapentina-300mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P200708",
+      "name": "SALMON OIL 100 ML",
+      "slug": "salmon-oil-100-ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitaminas",
+      "type": "physical"
+    },
+    {
+      "code": "P200596",
+      "name": "Nutra pro gatos esterilizados 1 lb",
+      "slug": "nutra-pro-gatos-esterilizados-1-lb",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimentos de gato",
+      "type": "physical"
+    },
+    {
+      "code": "P200575",
+      "name": "HEPATEX PLUS MASCOTAS 60ML",
+      "slug": "hepatex-plus-mascotas-60ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P200139",
+      "name": "CALMUROFEL",
+      "slug": "calmurofel",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P200138",
+      "name": "ENTEROCHRONICsobre 4 gramos",
+      "slug": "enterochronicsobre-4-gramos",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos oral",
+      "type": "physical"
+    },
+    {
+      "code": "P200137",
+      "name": "Rivolta 12% de 5.1 kg a 10 kg. Perros (MORADA)",
+      "slug": "rivolta-12-de-5-1-kg-a-10-kg-perros-morada",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P200117",
+      "name": "TropiClean Awapuhi Coconut Whitening",
+      "slug": "tropiclean-awapuhi-coconut-whitening",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P199251",
+      "name": "Wellness vitaminas skin coat 60 TAB",
+      "slug": "wellness-vitaminas-skin-coat-60-tab",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P197866",
+      "name": "JUGUETEHAMBURGUESA REF 7109",
+      "slug": "juguetehamburguesa-ref-7109",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P197328",
+      "name": "Arnés Lola REF 952",
+      "slug": "arnes-lola-ref-952",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P197327",
+      "name": "PECHERA CONEJO REF 445",
+      "slug": "pechera-conejo-ref-445",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P197326",
+      "name": "COLLAR MUCH JOY 818",
+      "slug": "collar-much-joy-818",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P197325",
+      "name": "Pechera multicolor REF 951",
+      "slug": "pechera-multicolor-ref-951",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P196093",
+      "name": "SCAVON VET SPRAY LATA AEROSOL X 120ML",
+      "slug": "scavon-vet-spray-lata-aerosol-x-120ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina topica",
+      "type": "physical"
+    },
+    {
+      "code": "P196081",
+      "name": "IMMUNOL JARABE100ml",
+      "slug": "immunol-jarabe100ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P195980",
+      "name": "Melopet 4 mg",
+      "slug": "melopet-4-mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P195972",
+      "name": "BONGO FORTE JERINGA 10ML",
+      "slug": "bongo-forte-jeringa-10ml",
+      "category": "Desparasitantes",
+      "rawCategory": "Antiparasitario interno",
+      "type": "physical"
+    },
+    {
+      "code": "P195287",
+      "name": "Confis Ultra Comprimidos 40",
+      "slug": "confis-ultra-comprimidos-40",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P194929",
+      "name": "PIPETA PULGACORE 11 A 20 KG",
+      "slug": "pipeta-pulgacore-11-a-20-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P194926",
+      "name": "DOXI INPEL 60 ML",
+      "slug": "doxi-inpel-60-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P194915",
+      "name": "BALSAMO PAW BUTTER 12G",
+      "slug": "balsamo-paw-butter-12g",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P194896",
+      "name": "Cover Dry Shampoo 200 ml",
+      "slug": "cover-dry-shampoo-200-ml",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P194192",
+      "name": "Enzybiotic frasco x60 tabletas",
+      "slug": "enzybiotic-frasco-x60-tabletas",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina oral",
+      "type": "physical"
+    },
+    {
+      "code": "P194191",
+      "name": "Revolution Plus 0.25ml, Gatitos De 1,25 - 2,5kg",
+      "slug": "revolution-plus-0-25ml-gatitos-de-1-25-2-5kg",
+      "category": "Desparasitantes",
+      "rawCategory": "Desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P194190",
+      "name": "Ripple Bowl amarillo MEDIANO",
+      "slug": "ripple-bowl-amarillo-mediano",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P194189",
+      "name": "Ripple Bowl amarillo GRANDE",
+      "slug": "ripple-bowl-amarillo-grande",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P194188",
+      "name": "Vetmedin 5.0 mg",
+      "slug": "vetmedin-5-0-mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P194175",
+      "name": "Pouch adulto cerdo y salmon",
+      "slug": "pouch-adulto-cerdo-y-salmon",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P194058",
+      "name": "OSURNIA 1ML",
+      "slug": "osurnia-1ml",
+      "category": "Medicamentos",
+      "rawCategory": "Biológicos",
+      "type": "physical"
+    },
+    {
+      "code": "P193033",
+      "name": "Ferplast FreshBreathe con Alga",
+      "slug": "ferplast-freshbreathe-con-alga",
+      "category": "Snacks",
+      "rawCategory": "Snacks",
+      "type": "physical"
+    },
+    {
+      "code": "P193032",
+      "name": "Nutrapro pouch gatos esterilizados POLLO YARANDANOS",
+      "slug": "nutrapro-pouch-gatos-esterilizados-pollo-yarandanos",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P191808",
+      "name": "PET DETOX 5ML",
+      "slug": "pet-detox-5ml",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P191771",
+      "name": "HEPAPET ORAL 120 ML",
+      "slug": "hepapet-oral-120-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P191769",
+      "name": "Spray Dermis 180 ml",
+      "slug": "spray-dermis-180-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina topica",
+      "type": "physical"
+    },
+    {
+      "code": "P191730",
+      "name": "DOGGIMEL SOBRE X100 GR",
+      "slug": "doggimel-sobre-x100-gr",
+      "category": "Sustitutos lacteos",
+      "rawCategory": "sustituto lacteo",
+      "type": "physical"
+    },
+    {
+      "code": "P188582",
+      "name": "REVOLUTION PLUS GATOS 0.50 ML2.5KG - 5KG (NARANJA)",
+      "slug": "revolution-plus-gatos-0-50-ml2-5kg-5kg-naranja",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P187057",
+      "name": "HEMOFER - B12 X UNIDAD",
+      "slug": "hemofer-b12-x-unidad",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P186422",
+      "name": "Juguete caña REF 545",
+      "slug": "juguete-cana-ref-545",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P186420",
+      "name": "Arnés rosado talla L REF 709",
+      "slug": "arnes-rosado-talla-l-ref-709",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P186419",
+      "name": "Arnés rosado talla M REF 709",
+      "slug": "arnes-rosado-talla-m-ref-709",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P186418",
+      "name": "Arnés con corbatín REF 302",
+      "slug": "arnes-con-corbatin-ref-302",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P185805",
+      "name": "Vantaggio verde 10a 20 kg",
+      "slug": "vantaggio-verde-10a-20-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P184329",
+      "name": "Golden selección natural CachoRAZAS GRANDES sabor pollo y arroz 3kg",
+      "slug": "golden-seleccion-natural-cachorazas-grandes-sabor-pollo-y-arroz-3kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P182445",
+      "name": "IVERFFLER TAB",
+      "slug": "iverffler-tab",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante interno",
+      "type": "physical"
+    },
+    {
+      "code": "P182439",
+      "name": "Sparryn colonia cunita 100ML",
+      "slug": "sparryn-colonia-cunita-100ml",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos",
+      "type": "physical"
+    },
+    {
+      "code": "P182438",
+      "name": "Meloboost",
+      "slug": "meloboost",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P181818",
+      "name": "Spiruvet 500 mg 60 TAB",
+      "slug": "spiruvet-500-mg-60-tab",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P181292",
+      "name": "Cystaid x 30 cápsulas",
+      "slug": "cystaid-x-30-capsulas",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P181246",
+      "name": "Dermobest champu medicado 250ML",
+      "slug": "dermobest-champu-medicado-250ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina topica",
+      "type": "physical"
+    },
+    {
+      "code": "P180684",
+      "name": "POWER PET 120ml",
+      "slug": "power-pet-120ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P180574",
+      "name": "Cefapet Suspensión 250mg/5ml",
+      "slug": "cefapet-suspension-250mg-5ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P180572",
+      "name": "GLUTAMAX FORTE40 tabs",
+      "slug": "glutamax-forte40-tabs",
+      "category": "Medicamentos",
+      "rawCategory": "medicina oral",
+      "type": "physical"
+    },
+    {
+      "code": "P180012",
+      "name": "DESCENSOR VET TABS 200mg",
+      "slug": "descensor-vet-tabs-200mg",
+      "category": "Medicamentos",
+      "rawCategory": "medicina oral",
+      "type": "physical"
+    },
+    {
+      "code": "P179607",
+      "name": "RIVOLTA 6% PIPETAde 2.6 a 7.5 kg Gatos",
+      "slug": "rivolta-6-pipetade-2-6-a-7-5-kg-gatos",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P178013",
+      "name": "UROPET x60 frasco",
+      "slug": "uropet-x60-frasco",
+      "category": "Medicamentos",
+      "rawCategory": "medicina oral",
+      "type": "physical"
+    },
+    {
+      "code": "P178011",
+      "name": "ANTI HEMO Kunidad",
+      "slug": "anti-hemo-kunidad",
+      "category": "Medicamentos",
+      "rawCategory": "medicina oral",
+      "type": "physical"
+    },
+    {
+      "code": "P177738",
+      "name": "Coatex por unidad",
+      "slug": "coatex-por-unidad",
+      "category": "Medicamentos",
+      "rawCategory": "medicina oral",
+      "type": "physical"
+    },
+    {
+      "code": "P177526",
+      "name": "Pechera + correa bicolor",
+      "slug": "pechera-correa-bicolor",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P177525",
+      "name": "Correa unicolor REF 962",
+      "slug": "correa-unicolor-ref-962",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P177523",
+      "name": "Arnes Mitoo talla xl",
+      "slug": "arnes-mitoo-talla-xl",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P176964",
+      "name": "Pechera cute osito",
+      "slug": "pechera-cute-osito",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P174097",
+      "name": "O Pet tableta x 60 U",
+      "slug": "o-pet-tableta-x-60-u",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P174042",
+      "name": "ORENDA CREMA DERMICA 30 G",
+      "slug": "orenda-crema-dermica-30-g",
+      "category": "Medicamentos",
+      "rawCategory": "medicina topica",
+      "type": "physical"
+    },
+    {
+      "code": "P173806",
+      "name": "AMOXIPET PLUSSUSPENSION 15 ML",
+      "slug": "amoxipet-plussuspension-15-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P173804",
+      "name": "Meloxivet suspension x 10 ml",
+      "slug": "meloxivet-suspension-x-10-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P173794",
+      "name": "Rivolta 6% hasta 2.5 Perros y Gatos(Amarillo)",
+      "slug": "rivolta-6-hasta-2-5-perros-y-gatos-amarillo",
+      "category": "Desparasitantes",
+      "rawCategory": "desparsitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P173405",
+      "name": "CARMINAL PETS 30ML JARABE",
+      "slug": "carminal-pets-30ml-jarabe",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P171741",
+      "name": "Citraz 20 ml",
+      "slug": "citraz-20-ml",
+      "category": "Hogar y control de plagas",
+      "rawCategory": "Producto para fumigar",
+      "type": "physical"
+    },
+    {
+      "code": "P171389",
+      "name": "PERROLAC 500g",
+      "slug": "perrolac-500g",
+      "category": "Sustitutos lacteos",
+      "rawCategory": "sustituto lacteo",
+      "type": "physical"
+    },
+    {
+      "code": "P171084",
+      "name": "FLORENTERO ACT FRASCO",
+      "slug": "florentero-act-frasco",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P170468",
+      "name": "Pet Smack Body fluid 500 ml",
+      "slug": "pet-smack-body-fluid-500-ml",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos",
+      "type": "physical"
+    },
+    {
+      "code": "P170332",
+      "name": "NUTRAPRO POUCH GATOS SALMON",
+      "slug": "nutrapro-pouch-gatos-salmon",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P170024",
+      "name": "Juguete hueso duro REF 828",
+      "slug": "juguete-hueso-duro-ref-828",
+      "category": "Juguetes",
+      "rawCategory": "Juguetes para Perros",
+      "type": "physical"
+    },
+    {
+      "code": "P169943",
+      "name": "Arnes Lulú",
+      "slug": "arnes-lulu",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P169790",
+      "name": "NUTRAPRO POUCH CACHORRO POLLO",
+      "slug": "nutrapro-pouch-cachorro-pollo",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P169789",
+      "name": "NUTRAPRO POUCH ADULTO CARNE POLLO HIGADO",
+      "slug": "nutrapro-pouch-adulto-carne-pollo-higado",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P169787",
+      "name": "Papee tapetes x30",
+      "slug": "papee-tapetes-x30",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P169382",
+      "name": "NUTRAPRO POUCH GATO ATUN YSARDINA 85 gr",
+      "slug": "nutrapro-pouch-gato-atun-ysardina-85-gr",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P169381",
+      "name": "NUTRAPRO POUCH GATITOS 85 gr",
+      "slug": "nutrapro-pouch-gatitos-85-gr",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P169379",
+      "name": "Correa tipo cadena REF 8406",
+      "slug": "correa-tipo-cadena-ref-8406",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P169114",
+      "name": "Farbio Care MIG CBD 30ML",
+      "slug": "farbio-care-mig-cbd-30ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P169092",
+      "name": "Fito Derma Shampoo 250 ml",
+      "slug": "fito-derma-shampoo-250-ml",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P169076",
+      "name": "FALEX 300 MG",
+      "slug": "falex-300-mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P169054",
+      "name": "Juguete huesito",
+      "slug": "juguete-huesito",
+      "category": "Juguetes",
+      "rawCategory": "Juguetes para Perros",
+      "type": "physical"
+    },
+    {
+      "code": "P169032",
+      "name": "Golden Gatitos sabor pollo 3kg funda negra",
+      "slug": "golden-gatitos-sabor-pollo-3kg-funda-negra",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimentos de gato",
+      "type": "physical"
+    },
+    {
+      "code": "P167852",
+      "name": "NEXGARD SPECTRA 30–60KG (8G)",
+      "slug": "nexgard-spectra-30-60kg-8g",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P167408",
+      "name": "Vantaggio Naranja 2 a 4kg",
+      "slug": "vantaggio-naranja-2-a-4kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P167405",
+      "name": "PREDNISOLONACHEMOVET 20 Mg",
+      "slug": "prednisolonachemovet-20-mg",
+      "category": "Medicamentos",
+      "rawCategory": "medicina oral",
+      "type": "physical"
+    },
+    {
+      "code": "P167333",
+      "name": "Coatex 60 cápsulas",
+      "slug": "coatex-60-capsulas",
+      "category": "Medicamentos",
+      "rawCategory": "medicina oral",
+      "type": "physical"
+    },
+    {
+      "code": "P167074",
+      "name": "PREMIERNUTRICION CLINICA RENAL GATOS 1.5kg",
+      "slug": "premiernutricion-clinica-renal-gatos-1-5kg",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P166899",
+      "name": "GENTAX OTICO 15 GR",
+      "slug": "gentax-otico-15-gr",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento otico",
+      "type": "physical"
+    },
+    {
+      "code": "P166877",
+      "name": "Premier Cookie Perros Cachorro Frutos Rojos yavena 250 gr",
+      "slug": "premier-cookie-perros-cachorro-frutos-rojos-yavena-250-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P166875",
+      "name": "Premier Cookie Perros Adultos Frutos Rojos y avena 250 gr",
+      "slug": "premier-cookie-perros-adultos-frutos-rojos-y-avena-250-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P166872",
+      "name": "Golden Cookie Adultos Tallapequeña Salmon y quinoa 350 gr",
+      "slug": "golden-cookie-adultos-tallapequena-salmon-y-quinoa-350-gr",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P166524",
+      "name": "Golden Seleccion natural Perros Adultos Razas pequeñas 3kg",
+      "slug": "golden-seleccion-natural-perros-adultos-razas-pequenas-3kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P166523",
+      "name": "Golden Seleccion natural Gatitos 3kg",
+      "slug": "golden-seleccion-natural-gatitos-3kg",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P166522",
+      "name": "Golden Seleccion natural GatosCastrados 3kg",
+      "slug": "golden-seleccion-natural-gatoscastrados-3kg",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P163295",
+      "name": "Pechera Mitoo talla M",
+      "slug": "pechera-mitoo-talla-m",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P163294",
+      "name": "Pechera Mitoo talla S",
+      "slug": "pechera-mitoo-talla-s",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P163288",
+      "name": "Pechera Police Talla XL",
+      "slug": "pechera-police-talla-xl",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P163284",
+      "name": "Pechera Police Talla L",
+      "slug": "pechera-police-talla-l",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P163081",
+      "name": "FLORENTERO ACT TAB",
+      "slug": "florentero-act-tab",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P163080",
+      "name": "Pechera más bolsito y correa 226",
+      "slug": "pechera-mas-bolsito-y-correa-226",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P162216",
+      "name": "Dog Chow Cachorro Mediano Grande475g",
+      "slug": "dog-chow-cachorro-mediano-grande475g",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P162215",
+      "name": "Dog Chow Cachorro Minis PQ 475g",
+      "slug": "dog-chow-cachorro-minis-pq-475g",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P162167",
+      "name": "DOG CHOW ADULTO RP 475G",
+      "slug": "dog-chow-adulto-rp-475g",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P161287",
+      "name": "Pechera Yabeibi multicolores",
+      "slug": "pechera-yabeibi-multicolores",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P161286",
+      "name": "Pechera llana 2207831",
+      "slug": "pechera-llana-2207831",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P161285",
+      "name": "Juguete jalador con pelota",
+      "slug": "juguete-jalador-con-pelota",
+      "category": "Juguetes",
+      "rawCategory": "Juguetes para Perros",
+      "type": "physical"
+    },
+    {
+      "code": "P161119",
+      "name": "Prednisolona 20 mg Holliday",
+      "slug": "prednisolona-20-mg-holliday",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P160904",
+      "name": "Cis A Prid Frasco 20 ml",
+      "slug": "cis-a-prid-frasco-20-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicina Oral",
+      "type": "physical"
+    },
+    {
+      "code": "P160733",
+      "name": "BISMUXIL PETS 30ML PASTA ORAL",
+      "slug": "bismuxil-pets-30ml-pasta-oral",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P159588",
+      "name": "Pala de gato Grande",
+      "slug": "pala-de-gato-grande",
+      "category": "Accesorios para gatos",
+      "rawCategory": "Accesorios para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P158975",
+      "name": "TOALLAS HUMEDAS BASIC DIN ALOEVERA",
+      "slug": "toallas-humedas-basic-din-aloevera",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P158172",
+      "name": "VI SORBITS FRASCO 50 TABLETAS",
+      "slug": "vi-sorbits-frasco-50-tabletas",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitaminas",
+      "type": "physical"
+    },
+    {
+      "code": "P155085",
+      "name": "Premier Nutricion clinicaHipoalergenico 2kg",
+      "slug": "premier-nutricion-clinicahipoalergenico-2kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P153821",
+      "name": "HEPAPET 120ML",
+      "slug": "hepapet-120ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "Vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P153817",
+      "name": "Dia Pet 60 ml",
+      "slug": "dia-pet-60-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P153748",
+      "name": "Pechera police Talla S",
+      "slug": "pechera-police-talla-s",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P153526",
+      "name": "NEXGARD COMBO 0.9ML GATO 2.5 a7.5 kg",
+      "slug": "nexgard-combo-0-9ml-gato-2-5-a7-5-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "Desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P152082",
+      "name": "PROTEGGO M 200MG 10 A 20 KG",
+      "slug": "proteggo-m-200mg-10-a-20-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P152078",
+      "name": "Proteggo M 100 MG",
+      "slug": "proteggo-m-100-mg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P151436",
+      "name": "SUCRALVET (240mg en 30 ml)",
+      "slug": "sucralvet-240mg-en-30-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P151432",
+      "name": "Pre Pro Bios sobre 3gr",
+      "slug": "pre-pro-bios-sobre-3gr",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P150233",
+      "name": "NutraPro Cachorro Razas Grandes 2kg",
+      "slug": "nutrapro-cachorro-razas-grandes-2kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P150230",
+      "name": "NEXGARD SPECTRA15.1 A 30Kg",
+      "slug": "nexgard-spectra15-1-a-30kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P150229",
+      "name": "NEXGARD SPECTRA7.6 A 15KG",
+      "slug": "nexgard-spectra7-6-a-15kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P150228",
+      "name": "NEXGARD SPECTRA3.6 a 7.5Kg (1G)",
+      "slug": "nexgard-spectra3-6-a-7-5kg-1g",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P150227",
+      "name": "NEXGARD COMBO0.3ML GATO hasta2.5 kg",
+      "slug": "nexgard-combo0-3ml-gato-hasta2-5-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P149845",
+      "name": "Previcox 57mg",
+      "slug": "previcox-57mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P148441",
+      "name": "Dermahealth Care Puppy 200 ml",
+      "slug": "dermahealth-care-puppy-200-ml",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P145797",
+      "name": "Juguete Kittyplay pollito con catnip",
+      "slug": "juguete-kittyplay-pollito-con-catnip",
+      "category": "Accesorios para gatos",
+      "rawCategory": "Accesorios para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P145796",
+      "name": "Juguete Raton con catnip",
+      "slug": "juguete-raton-con-catnip",
+      "category": "Accesorios para gatos",
+      "rawCategory": "Accesorios para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P144140",
+      "name": "CREDELIO 1.3 - 2.5 KG (AMARILLA)",
+      "slug": "credelio-1-3-2-5-kg-amarilla",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P144139",
+      "name": "Baytril tab 50mg SABORIZADO",
+      "slug": "baytril-tab-50mg-saborizado",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P144133",
+      "name": "Terbigem 120 ml",
+      "slug": "terbigem-120-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento topico",
+      "type": "physical"
+    },
+    {
+      "code": "P144131",
+      "name": "BRONAVERIO 50 mg",
+      "slug": "bronaverio-50-mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P143846",
+      "name": "Cama tipo tapete",
+      "slug": "cama-tipo-tapete",
+      "category": "Camas y descanso",
+      "rawCategory": "Camas y casas para Perros",
+      "type": "physical"
+    },
+    {
+      "code": "P143844",
+      "name": "Arnes Coquette",
+      "slug": "arnes-coquette",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P143841",
+      "name": "Arnes Coquette",
+      "slug": "arnes-coquette-p143841",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P143840",
+      "name": "Pechera Animal Print REF 8389",
+      "slug": "pechera-animal-print-ref-8389",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P143839",
+      "name": "Pechera pastel Osito REF 505",
+      "slug": "pechera-pastel-osito-ref-505",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P143821",
+      "name": "Pechera HR TALLA S M",
+      "slug": "pechera-hr-talla-s-m",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P143820",
+      "name": "Pechera HR TALLA L XL",
+      "slug": "pechera-hr-talla-l-xl",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P143816",
+      "name": "Yabeibi cuerda 9080",
+      "slug": "yabeibi-cuerda-9080",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P143173",
+      "name": "Kyrociclin 100 mg",
+      "slug": "kyrociclin-100-mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P142977",
+      "name": "FENOBARBITAL COMPRIMIDOS 100MG",
+      "slug": "fenobarbital-comprimidos-100mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P142637",
+      "name": "COLIRIO-ZOO GOTAS 10ML",
+      "slug": "colirio-zoo-gotas-10ml",
+      "category": "Medicamentos",
+      "rawCategory": "Colirio",
+      "type": "physical"
+    },
+    {
+      "code": "P140834",
+      "name": "Bolsas de basura ecologicas",
+      "slug": "bolsas-de-basura-ecologicas",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P138702",
+      "name": "Pechera pastel talla S",
+      "slug": "pechera-pastel-talla-s",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P138673",
+      "name": "Canatox Gotero 20 ml",
+      "slug": "canatox-gotero-20-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P138669",
+      "name": "Diagel sobre",
+      "slug": "diagel-sobre",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P73110",
+      "name": "Pechera geométrica 502",
+      "slug": "pechera-geometrica-502",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P72429",
+      "name": "Dentyfarm crema 30 gramos",
+      "slug": "dentyfarm-crema-30-gramos",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmetico perros",
+      "type": "physical"
+    },
+    {
+      "code": "P71953",
+      "name": "GatoLac 100gr",
+      "slug": "gatolac-100gr",
+      "category": "Sustitutos lacteos",
+      "rawCategory": "sustituto lacteo",
+      "type": "physical"
+    },
+    {
+      "code": "P71947",
+      "name": "PerroLac 100gr",
+      "slug": "perrolac-100gr",
+      "category": "Sustitutos lacteos",
+      "rawCategory": "sustituto lacteo",
+      "type": "physical"
+    },
+    {
+      "code": "P71150",
+      "name": "Sanitol Pasta 60 gr",
+      "slug": "sanitol-pasta-60-gr",
+      "category": "Medicamentos",
+      "rawCategory": "medicamento topico",
+      "type": "physical"
+    },
+    {
+      "code": "P70315",
+      "name": "Previcox 227mg",
+      "slug": "previcox-227mg",
+      "category": "Medicamentos",
+      "rawCategory": "medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P70218",
+      "name": "NEXGARD 2 A 4 KG UNIDAD",
+      "slug": "nexgard-2-a-4-kg-unidad",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P65673",
+      "name": "NEXGARD 4.1 -10 KG",
+      "slug": "nexgard-4-1-10-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P65368",
+      "name": "Can Plusvit 50 ml",
+      "slug": "can-plusvit-50-ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P64655",
+      "name": "ECTHOL Collar Antipulgas yGarrapatas Gatos 40 CM VERDE",
+      "slug": "ecthol-collar-antipulgas-ygarrapatas-gatos-40-cm-verde",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P64584",
+      "name": "Orenda solución ótica 100ml",
+      "slug": "orenda-solucion-otica-100ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento otico",
+      "type": "physical"
+    },
+    {
+      "code": "P64518",
+      "name": "NEXGARD 25.1-50 KG",
+      "slug": "nexgard-25-1-50-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P64350",
+      "name": "Bongo vita B 120 ml",
+      "slug": "bongo-vita-b-120-ml",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P64294",
+      "name": "MOXIPETSUSPENSIÓN ORAL 120 ML",
+      "slug": "moxipetsuspension-oral-120-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P62974",
+      "name": "BONGOCACHORROS CON OMEGA 3",
+      "slug": "bongocachorros-con-omega-3",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante interno",
+      "type": "physical"
+    },
+    {
+      "code": "P62730",
+      "name": "Relay C comprimidos 100 mcg",
+      "slug": "relay-c-comprimidos-100-mcg",
+      "category": "Medicamentos",
+      "rawCategory": "medicina oral",
+      "type": "physical"
+    },
+    {
+      "code": "P61894",
+      "name": "RECOVERY CANINE FELINE LATA 195GRMS",
+      "slug": "recovery-canine-feline-lata-195grms",
+      "category": "Alimento para perros",
+      "rawCategory": "alimento",
+      "type": "physical"
+    },
+    {
+      "code": "P61893",
+      "name": "Viusid pets 30 ml",
+      "slug": "viusid-pets-30-ml",
+      "category": "Medicamentos",
+      "rawCategory": "medicina oral",
+      "type": "physical"
+    },
+    {
+      "code": "P61821",
+      "name": "Corta uñas de gato",
+      "slug": "corta-unas-de-gato",
+      "category": "Accesorios para gatos",
+      "rawCategory": "Accesorios para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P61814",
+      "name": "Teta Pet Milk 4 oz",
+      "slug": "teta-pet-milk-4-oz",
+      "category": "Accesorios para perros",
+      "rawCategory": "accesorio",
+      "type": "physical"
+    },
+    {
+      "code": "P61813",
+      "name": "Juguete Feni pet Raton",
+      "slug": "juguete-feni-pet-raton",
+      "category": "Accesorios para gatos",
+      "rawCategory": "Accesorios para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P61565",
+      "name": "Melopet 1 mg",
+      "slug": "melopet-1-mg",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P58613",
+      "name": "Champu Baxidin 100 ml",
+      "slug": "champu-baxidin-100-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicament topico",
+      "type": "physical"
+    },
+    {
+      "code": "P58550",
+      "name": "Baxidin spray 120 ml",
+      "slug": "baxidin-spray-120-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento topico",
+      "type": "physical"
+    },
+    {
+      "code": "P56300",
+      "name": "Shampoo Finish 250 ml",
+      "slug": "shampoo-finish-250-ml",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P56293",
+      "name": "Shampoo Blanch 250 ml",
+      "slug": "shampoo-blanch-250-ml",
+      "category": "Higiene y cosmetica",
+      "rawCategory": "Cosmeticos Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P55450",
+      "name": "Baxidin spray 60 ml",
+      "slug": "baxidin-spray-60-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento topico",
+      "type": "physical"
+    },
+    {
+      "code": "P51009",
+      "name": "Pechera Police Talla M 237",
+      "slug": "pechera-police-talla-m-237",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P50166",
+      "name": "NexGard 10-25 kg",
+      "slug": "nexgard-10-25-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P50163",
+      "name": "NutraPro Delibites 100gr",
+      "slug": "nutrapro-delibites-100gr",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P49656",
+      "name": "Ojux V",
+      "slug": "ojux-v",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P49289",
+      "name": "Gynpel Gel oral",
+      "slug": "gynpel-gel-oral",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P49247",
+      "name": "Sinvirax oral 50 ml",
+      "slug": "sinvirax-oral-50-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P45488",
+      "name": "SINVIRAX ORAL 20 ML",
+      "slug": "sinvirax-oral-20-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P45333",
+      "name": "Correa conAmortiguador REF 959",
+      "slug": "correa-conamortiguador-ref-959",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P45329",
+      "name": "Nutra Pro Gatitos y Gatos 1lb",
+      "slug": "nutra-pro-gatitos-y-gatos-1lb",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P45327",
+      "name": "NutraPro Cachorro Razas pequeñas2kg",
+      "slug": "nutrapro-cachorro-razas-pequenas2kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P45326",
+      "name": "NutraPro Adulto Razas Grandes 2Kg",
+      "slug": "nutrapro-adulto-razas-grandes-2kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P45325",
+      "name": "Nutra Pro Gatos esterilizados 2 kg",
+      "slug": "nutra-pro-gatos-esterilizados-2-kg",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P45324",
+      "name": "NutraPro Adulto Razas pequeñas 2kg",
+      "slug": "nutrapro-adulto-razas-pequenas-2kg",
+      "category": "Alimento para perros",
+      "rawCategory": "Alimentos de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P44919",
+      "name": "Triseptil susp 60 ml",
+      "slug": "triseptil-susp-60-ml",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamentos",
+      "type": "physical"
+    },
+    {
+      "code": "P44626",
+      "name": "Nutra Pro Gatitos y Gatos 2 kg",
+      "slug": "nutra-pro-gatitos-y-gatos-2-kg",
+      "category": "Alimento para gatos",
+      "rawCategory": "Alimento para Gatos",
+      "type": "physical"
+    },
+    {
+      "code": "P44625",
+      "name": "Juguete pollo",
+      "slug": "juguete-pollo",
+      "category": "Juguetes",
+      "rawCategory": "Juguetes para Perros",
+      "type": "physical"
+    },
+    {
+      "code": "P44624",
+      "name": "Collar lazo",
+      "slug": "collar-lazo",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P44623",
+      "name": "Corta uñas",
+      "slug": "corta-unas",
+      "category": "Accesorios para perros",
+      "rawCategory": "Accesorios de Perritos",
+      "type": "physical"
+    },
+    {
+      "code": "P44591",
+      "name": "Juguete Pelota REF 7114",
+      "slug": "juguete-pelota-ref-7114",
+      "category": "Juguetes",
+      "rawCategory": "Juguetes para Perros",
+      "type": "physical"
+    },
+    {
+      "code": "P44377",
+      "name": "Saniderm crema 40gr",
+      "slug": "saniderm-crema-40gr",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento topico",
+      "type": "physical"
+    },
+    {
+      "code": "P43482",
+      "name": "Simparica 20 a 40 kg",
+      "slug": "simparica-20-a-40-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P43479",
+      "name": "Simparica 10 a 20 kg",
+      "slug": "simparica-10-a-20-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    },
+    {
+      "code": "P43456",
+      "name": "Dermil",
+      "slug": "dermil",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P43450",
+      "name": "Enzy Biotic",
+      "slug": "enzy-biotic",
+      "category": "Medicamentos",
+      "rawCategory": "Medicamento oral",
+      "type": "physical"
+    },
+    {
+      "code": "P43449",
+      "name": "Vi sorbits",
+      "slug": "vi-sorbits",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P43448",
+      "name": "Hemofer B12",
+      "slug": "hemofer-b12",
+      "category": "Vitaminas y suplementos",
+      "rawCategory": "vitamina",
+      "type": "physical"
+    },
+    {
+      "code": "P43389",
+      "name": "Simparica de 5 a 10 Kg",
+      "slug": "simparica-de-5-a-10-kg",
+      "category": "Desparasitantes",
+      "rawCategory": "desparasitante externo",
+      "type": "physical"
+    }
+  ]
+}
