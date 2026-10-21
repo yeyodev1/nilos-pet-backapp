@@ -36,7 +36,9 @@ export async function createPublic(input: CreatePublicBookingInput) {
 
   const customer = {
     name: String(input.customer?.name ?? "").trim(),
-    email: String(input.customer?.email ?? "").trim().toLowerCase(),
+    email: String(input.customer?.email ?? "")
+      .trim()
+      .toLowerCase(),
     phone: String(input.customer?.phone ?? "").trim(),
   };
   if (!customer.name || !customer.phone) {
