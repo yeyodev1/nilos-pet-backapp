@@ -39,9 +39,7 @@ export async function confirmPayment(
   } catch (error) {
     // Un rechazo de Payphone llega como { message, errorCode } en el body del error.
     const detalle =
-      axios.isAxiosError(error) && error.response?.data
-        ? error.response.data
-        : undefined;
+      axios.isAxiosError(error) && error.response?.data ? error.response.data : undefined;
     console.error("[payphone] confirmación fallida:", detalle ?? error);
     throw new CustomError("No se pudo confirmar el pago con Payphone", 502, detalle);
   }
