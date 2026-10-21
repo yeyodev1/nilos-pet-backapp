@@ -112,6 +112,23 @@ export async function createUser(input: {
   return sanitize(user);
 }
 
+export async function register(input: {
+  email: string;
+  password: string;
+  name?: string;
+  phone?: string;
+}): Promise<{ token: string; user: SessionUser }> {
+  requireDb();
+  const email = input.email.toLowerCase().trim();
+  const existing = await User.findOne({ email });
+  if (existing) throw new CustomError("Ya existe una cuenta con ese correo", 409);
+
+  // El registro público solo crea compradores; las cuentas admin se siembran.
+  const user = await createUser({ ...input, email, accountType: "customer" });
+  const doc = await User.findById(user.id);
+  return { token: signToken(doc), user };
+}
+
 /**
  * Crea la cuenta de administración si todavía no existe.
  *
