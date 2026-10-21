@@ -33,6 +33,52 @@ export async function sendEmail(to: string, subject: string, html: string): Prom
   }
 }
 
+/** Formatea centavos como dólares: 1990 → "$19.90". */
+function money(cents: number): string {
+  return `$${(cents / 100).toFixed(2)}`;
+}
+
+/**
+ * Correo de compra confirmada. Recibe la orden ya pagada; si algún ítem tiene
+ * fecha agendada se muestra, porque es la cita que el cliente reservó.
+ */
+export async function sendOrderConfirmation(order: {
+  number: number;
+  total: number;
+  customer: { name: string; email: string };
+  items: { name: string; price: number; qty: number; scheduledFor?: Date | null }[];
+}): Promise<boolean> {
+  if (!order.customer?.email) return false;
+
+  const rows = order.items
+    .map((item) => {
+      const cita = item.scheduledFor
+        ? `<br/><span style="color:#71717a;font-size:12px">Cita: ${new Date(item.scheduledFor).toLocaleString("es-EC", { timeZone: "America/Guayaquil" })}</span>`
+        : "";
+      return `<tr>
+        <td style="padding:8px 0;border-bottom:1px solid #e4e4e7">${item.name} × ${item.qty}${cita}</td>
+        <td style="padding:8px 0;border-bottom:1px solid #e4e4e7;text-align:right">${money(item.price * item.qty)}</td>
+      </tr>`;
+    })
+    .join("");
+
+  const body = `
+    <p>Hola ${order.customer.name || ""},</p>
+    <p>Recibimos tu pago. Este es el detalle de tu compra <strong>#${order.number}</strong>:</p>
+    <table width="100%" cellpadding="0" cellspacing="0" style="font-size:14px">
+      ${rows}
+      <tr><td style="padding:12px 0;font-weight:bold">Total</td>
+      <td style="padding:12px 0;font-weight:bold;text-align:right">${money(order.total)}</td></tr>
+    </table>
+    <p>Si compraste un servicio, te esperamos en la sucursal elegida. ¡Gracias por confiar en Nilos Pet!</p>`;
+
+  return sendEmail(
+    order.customer.email,
+    `Compra confirmada #${order.number} — Nilos Pet`,
+    layout("¡Gracias por tu compra!", body),
+  );
+}
+
 /** Plantilla base: tarjeta blanca centrada con encabezado de marca. */
 export function layout(title: string, body: string): string {
   return `
