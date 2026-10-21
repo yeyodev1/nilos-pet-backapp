@@ -34,7 +34,7 @@ export async function create(req: Request, res: Response, next: NextFunction) {
 /** PUT /api/admin/branches/:id */
 export async function update(req: Request, res: Response, next: NextFunction) {
   try {
-    const branch = await branchService.update(req.params.id, req.body ?? {});
+    const branch = await branchService.update(String(req.params.id), req.body ?? {});
     res.status(200).json(branch);
   } catch (error) {
     next(error);
@@ -44,7 +44,7 @@ export async function update(req: Request, res: Response, next: NextFunction) {
 /** DELETE /api/admin/branches/:id — desactiva, no borra. */
 export async function remove(req: Request, res: Response, next: NextFunction) {
   try {
-    const branch = await branchService.remove(req.params.id);
+    const branch = await branchService.remove(String(req.params.id));
     res.status(200).json(branch);
   } catch (error) {
     next(error);
