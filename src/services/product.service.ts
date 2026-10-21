@@ -150,9 +150,10 @@ export async function create(input: ProductInput) {
   const name = String(input.name ?? "").trim();
   if (!name) throw new CustomError("El nombre del producto es obligatorio", 400);
 
-  const type = input.type && PRODUCT_TYPES.includes(input.type as ProductType)
-    ? (input.type as ProductType)
-    : "physical";
+  const type =
+    input.type && PRODUCT_TYPES.includes(input.type as ProductType)
+      ? (input.type as ProductType)
+      : "physical";
 
   const slug = slugify(String(input.slug ?? "").trim() || name);
   const clash = await Product.findOne({ slug });
