@@ -24,7 +24,7 @@ export async function create(req: Request, res: Response, next: NextFunction) {
 /** PUT /api/admin/categories/:id — body: { name?, order? } */
 export async function update(req: Request, res: Response, next: NextFunction) {
   try {
-    const category = await categoryService.update(req.params.id, req.body ?? {});
+    const category = await categoryService.update(String(req.params.id), req.body ?? {});
     res.status(200).json(category);
   } catch (error) {
     next(error);
@@ -34,7 +34,7 @@ export async function update(req: Request, res: Response, next: NextFunction) {
 /** DELETE /api/admin/categories/:id */
 export async function remove(req: Request, res: Response, next: NextFunction) {
   try {
-    await categoryService.remove(req.params.id);
+    await categoryService.remove(String(req.params.id));
     res.status(204).end();
   } catch (error) {
     next(error);
