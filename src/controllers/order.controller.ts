@@ -58,7 +58,7 @@ export async function list(req: Request, res: Response, next: NextFunction) {
 /** GET /api/admin/orders/:id */
 export async function getById(req: Request, res: Response, next: NextFunction) {
   try {
-    const order = await orderService.getById(req.params.id);
+    const order = await orderService.getById(String(req.params.id));
     res.status(200).json(order);
   } catch (error) {
     next(error);
