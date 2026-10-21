@@ -1,6 +1,13 @@
 import express, { Application } from "express";
 import authRoutes from "./auth.routes";
 import healthRoutes from "./health.routes";
+import categoryRoutes from "./category.routes";
+import productRoutes from "./product.routes";
+import branchRoutes from "./branch.routes";
+import orderRoutes from "./order.routes";
+import bookingRoutes from "./booking.routes";
+import examResultRoutes from "./examResult.routes";
+import adminRoutes from "./admin.routes";
 
 function routerApi(app: Application) {
   const router = express.Router();
@@ -8,6 +15,13 @@ function routerApi(app: Application) {
 
   router.use("/health", healthRoutes);
   router.use("/auth", authRoutes);
+  router.use("/categories", categoryRoutes);
+  router.use("/products", productRoutes);
+  router.use("/branches", branchRoutes);
+  router.use("/orders", orderRoutes);
+  router.use("/bookings", bookingRoutes);
+  router.use("/exam-results", examResultRoutes);
+  router.use("/admin", adminRoutes);
 }
 
 export default routerApi;
