@@ -14,6 +14,22 @@ export async function login(req: Request, res: Response, next: NextFunction) {
   }
 }
 
+/** POST /api/auth/register — body: { email, password, name?, phone? } */
+export async function register(req: Request, res: Response, next: NextFunction) {
+  try {
+    const { email, password, name, phone } = req.body ?? {};
+    const result = await authService.register({
+      email: String(email ?? ""),
+      password: String(password ?? ""),
+      name: name ? String(name) : "",
+      phone: phone ? String(phone) : "",
+    });
+    res.status(201).json(result);
+  } catch (error) {
+    next(error);
+  }
+}
+
 /** GET /api/auth/me — devuelve la sesión del token. */
 export async function me(req: AuthRequest, res: Response, next: NextFunction) {
   try {
