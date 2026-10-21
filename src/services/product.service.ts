@@ -96,10 +96,11 @@ export async function listAdmin(filters: AdminListFilters) {
   if (filters.type && PRODUCT_TYPES.includes(filters.type as ProductType)) {
     query.type = filters.type;
   }
-  if (filters.published === "true") query.isPublished = true;
-  if (filters.published === "false") query.isPublished = false;
-  if (filters.priced === "true") query.price = { $gt: 0 };
-  if (filters.priced === "false") query.price = { $lte: 0 };
+  // El panel manda "1"/"0" y la spec decía "true"/"false": se aceptan ambos.
+  if (filters.published === "true" || filters.published === "1") query.isPublished = true;
+  if (filters.published === "false" || filters.published === "0") query.isPublished = false;
+  if (filters.priced === "true" || filters.priced === "1") query.price = { $gt: 0 };
+  if (filters.priced === "false" || filters.priced === "0") query.price = { $lte: 0 };
 
   const total = await Product.countDocuments(query);
   const { skip, pages } = paginate(page, total, limit);
