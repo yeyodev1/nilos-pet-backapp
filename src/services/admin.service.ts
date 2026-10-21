@@ -50,7 +50,9 @@ export async function listCustomers(filters: { search?: string; page?: number })
 
   if (filters.search) {
     const regex = {
-      $regex: String(filters.search).trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
+      $regex: String(filters.search)
+        .trim()
+        .replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
       $options: "i",
     };
     query.$or = [{ name: regex }, { email: regex }];
