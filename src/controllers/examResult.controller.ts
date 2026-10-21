@@ -40,7 +40,7 @@ export async function create(req: Request, res: Response, next: NextFunction) {
 /** DELETE /api/admin/exam-results/:id — borra también el archivo en Cloudinary. */
 export async function remove(req: Request, res: Response, next: NextFunction) {
   try {
-    await examResultService.remove(req.params.id);
+    await examResultService.remove(String(req.params.id));
     res.status(204).end();
   } catch (error) {
     next(error);
