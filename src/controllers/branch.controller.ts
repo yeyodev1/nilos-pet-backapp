@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from "express";
+import { CustomError } from "../errors/customError.error";
 import * as branchService from "../services/branch.service";
 
 /** GET /api/branches — solo sucursales activas. */
@@ -45,6 +46,17 @@ export async function update(req: Request, res: Response, next: NextFunction) {
 export async function remove(req: Request, res: Response, next: NextFunction) {
   try {
     const branch = await branchService.remove(String(req.params.id));
+    res.status(200).json(branch);
+  } catch (error) {
+    next(error);
+  }
+}
+
+/** POST /api/admin/branches/:id/image — multipart, campo "image". */
+export async function setImage(req: Request, res: Response, next: NextFunction) {
+  try {
+    if (!req.file?.buffer) throw new CustomError("Adjunta una imagen", 400);
+    const branch = await branchService.setImage(String(req.params.id), req.file.buffer);
     res.status(200).json(branch);
   } catch (error) {
     next(error);

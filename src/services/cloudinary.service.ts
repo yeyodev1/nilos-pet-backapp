@@ -27,6 +27,8 @@ const DEFAULT_FOLDER = "nilos-pet-backapp";
 export function uploadBuffer(
   buffer: Buffer,
   folder = DEFAULT_FOLDER,
+  /** true = se guarda el original: un GIF conserva la animación. */
+  keepOriginal = false,
 ): Promise<{ url: string; publicId: string }> {
   ensureConfig();
   return new Promise((resolve, reject) => {
@@ -34,11 +36,13 @@ export function uploadBuffer(
       {
         folder,
         resource_type: "image",
-        transformation: [{ quality: "auto", fetch_format: "auto" }],
+        ...(keepOriginal ? {} : { transformation: [{ quality: "auto", fetch_format: "auto" }] }),
       },
       (error, result?: UploadApiResponse) => {
         if (error || !result) return reject(error || new Error("Cloudinary sin respuesta"));
-        resolve({ url: result.secure_url, publicId: result.public_id });
+        // El navegador no pinta TIFF: Cloudinary lo convierte al pedirlo como .jpg.
+        const url = result.secure_url.replace(/\.tiff?$/i, ".jpg");
+        resolve({ url, publicId: result.public_id });
       },
     );
     stream.end(buffer);

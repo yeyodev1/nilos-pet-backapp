@@ -13,6 +13,7 @@ export interface SessionUser {
   email: string;
   name: string;
   phone: string;
+  pet: { name: string; age: string; species: string; breed: string };
   accountType: string;
 }
 
@@ -22,6 +23,12 @@ function sanitize(user: any): SessionUser {
     email: user.email,
     name: user.name,
     phone: user.phone,
+    pet: {
+      name: user.pet?.name || "",
+      age: user.pet?.age || "",
+      species: user.pet?.species || "",
+      breed: user.pet?.breed || "",
+    },
     accountType: user.accountType,
   };
 }
@@ -93,6 +100,7 @@ export async function createUser(input: {
   password: string;
   name?: string;
   phone?: string;
+  pet?: Partial<IUser["pet"]>;
   accountType?: IUser["accountType"];
 }): Promise<SessionUser> {
   requireDb();
@@ -107,6 +115,12 @@ export async function createUser(input: {
     password: input.password,
     name: input.name || "",
     phone: input.phone || "",
+    pet: {
+      name: String(input.pet?.name ?? "").trim(),
+      age: String(input.pet?.age ?? "").trim(),
+      species: String(input.pet?.species ?? "").trim(),
+      breed: String(input.pet?.breed ?? "").trim(),
+    },
     accountType: input.accountType || "customer",
   });
   return sanitize(user);
@@ -117,6 +131,7 @@ export async function register(input: {
   password: string;
   name?: string;
   phone?: string;
+  pet?: Partial<IUser["pet"]>;
 }): Promise<{ token: string; user: SessionUser }> {
   requireDb();
   const email = input.email.toLowerCase().trim();

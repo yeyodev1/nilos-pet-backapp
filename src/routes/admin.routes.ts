@@ -3,6 +3,8 @@ import { authMiddleware } from "../middlewares/auth.middleware";
 import { adminMiddleware } from "../middlewares/admin.middleware";
 import { uploadMiddleware } from "../middlewares/upload.middleware";
 import * as adminController from "../controllers/admin.controller";
+import * as bannerController from "../controllers/banner.controller";
+import * as reviewController from "../controllers/review.controller";
 import * as bookingController from "../controllers/booking.controller";
 import * as branchController from "../controllers/branch.controller";
 import * as categoryController from "../controllers/category.controller";
@@ -27,6 +29,14 @@ router.get("/branches", branchController.list);
 router.post("/branches", branchController.create);
 router.put("/branches/:id", branchController.update);
 router.delete("/branches/:id", branchController.remove);
+router.post("/branches/:id/image", uploadMiddleware.single("image"), branchController.setImage);
+
+router.get("/banners", bannerController.list);
+router.post("/banners", uploadMiddleware.single("image"), bannerController.create);
+router.delete("/banners/:id", bannerController.remove);
+
+router.get("/reviews", reviewController.listPublic);
+router.delete("/reviews/:id", reviewController.remove);
 
 router.get("/products", productController.listAdmin);
 router.post("/products", productController.create);

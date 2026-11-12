@@ -17,12 +17,13 @@ export async function login(req: Request, res: Response, next: NextFunction) {
 /** POST /api/auth/register — body: { email, password, name?, phone? } */
 export async function register(req: Request, res: Response, next: NextFunction) {
   try {
-    const { email, password, name, phone } = req.body ?? {};
+    const { email, password, name, phone, pet } = req.body ?? {};
     const result = await authService.register({
       email: String(email ?? ""),
       password: String(password ?? ""),
       name: name ? String(name) : "",
       phone: phone ? String(phone) : "",
+      pet: pet && typeof pet === "object" ? pet : undefined,
     });
     res.status(201).json(result);
   } catch (error) {

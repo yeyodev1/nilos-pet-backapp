@@ -4,7 +4,7 @@ import { CustomError } from "../errors/customError.error";
 import { Booking } from "../models/booking.model";
 import { Branch } from "../models/branch.model";
 import { Order, nextOrderNumber, ORDER_STATUSES } from "../models/order.model";
-import { Product } from "../models/product.model";
+import { Product, finalPrice } from "../models/product.model";
 import { sendOrderConfirmation } from "./email.service";
 import * as payphoneService from "./payphone.service";
 
@@ -80,7 +80,13 @@ export async function createOrder(input: CreateOrderInput, userId: string | null
     }
 
     const product = await Product.findById(productId);
-    if (!product || !product.isPublished || product.price <= 0) {
+    if (
+      !product ||
+      !product.isPublished ||
+      product.price <= 0 ||
+      product.priceFrom ||
+      !product.payOnline
+    ) {
       throw new CustomError(
         `El producto "${product?.name ?? "desconocido"}" no está disponible para la venta`,
         400,
@@ -95,7 +101,7 @@ export async function createOrder(input: CreateOrderInput, userId: string | null
     let itemBranch: Types.ObjectId | null = null;
     let scheduledFor: Date | null = null;
 
-    if (product.type === "service" && product.bookable) {
+    if (product.type !== "physical" && product.bookable) {
       if (!raw.branchId || !raw.scheduledFor) {
         throw new CustomError(
           `El servicio "${product.name}" necesita sucursal y fecha para reservar`,
@@ -113,12 +119,12 @@ export async function createOrder(input: CreateOrderInput, userId: string | null
     items.push({
       product: product._id,
       name: product.name,
-      price: product.price,
+      price: finalPrice(product),
       qty,
       branch: itemBranch,
       scheduledFor,
     });
-    total += product.price * qty;
+    total += finalPrice(product) * qty;
   }
 
   const order = await Order.create({

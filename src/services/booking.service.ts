@@ -3,6 +3,8 @@ import { CustomError } from "../errors/customError.error";
 import { Booking, BOOKING_STATUSES, BookingStatus } from "../models/booking.model";
 import { Branch } from "../models/branch.model";
 import { Product } from "../models/product.model";
+import { env } from "../config/env";
+import { layout, sendEmail } from "./email.service";
 
 const PAGE_SIZE = 20;
 
@@ -10,7 +12,9 @@ export interface CreatePublicBookingInput {
   productId?: string;
   branchId?: string;
   customer?: { name?: string; email?: string; phone?: string };
+  pet?: { name?: string; species?: string; breed?: string };
   preferredAt?: string;
+  preferredEnd?: string;
   notes?: string;
 }
 
@@ -45,19 +49,59 @@ export async function createPublic(input: CreatePublicBookingInput) {
     throw new CustomError("El nombre y el teléfono son obligatorios para reservar", 400);
   }
 
+  const pet = {
+    name: String(input.pet?.name ?? "").trim(),
+    species: String(input.pet?.species ?? "").trim(),
+    breed: String(input.pet?.breed ?? "").trim(),
+  };
+  if (!pet.name || !pet.species || !pet.breed) {
+    throw new CustomError("El nombre, la especie y la raza de la mascota son obligatorios", 400);
+  }
+
   const preferredAt = new Date(String(input.preferredAt ?? ""));
   if (Number.isNaN(preferredAt.getTime())) {
     throw new CustomError("La fecha de la reserva no es válida", 400);
   }
 
-  return Booking.create({
+  let preferredEnd: Date | null = null;
+  if (input.preferredEnd) {
+    preferredEnd = new Date(String(input.preferredEnd));
+    if (Number.isNaN(preferredEnd.getTime()) || preferredEnd < preferredAt) {
+      throw new CustomError("La fecha de salida no es válida", 400);
+    }
+  }
+
+  const booking = await Booking.create({
     product: product._id,
     branch: branch._id,
     order: null,
     customer,
+    pet,
     preferredAt,
+    preferredEnd,
     notes: String(input.notes ?? "").trim(),
   });
+
+  // Aviso al local. sendEmail nunca lanza: sin Resend la reserva igual queda en el panel.
+  const day = (date: Date) => date.toLocaleDateString("es-EC", { timeZone: "America/Guayaquil" });
+  await sendEmail(
+    env.ADMIN_EMAIL,
+    `Nueva reserva: ${product.name} — ${branch.name}`,
+    layout(
+      "Nueva reserva",
+      `<p><strong>${product.name}</strong> en ${branch.name}<br/>
+       Fecha: ${day(preferredAt)}${preferredEnd ? ` al ${day(preferredEnd)}` : ""}</p>
+       <p>${escapeHtml(customer.name)} · ${escapeHtml(customer.phone)} · ${escapeHtml(customer.email)}<br/>
+       Mascota: ${escapeHtml(pet.name)} (${escapeHtml(pet.species)}, ${escapeHtml(pet.breed)})</p>
+       <p>Confírmala desde el panel, en Reservas.</p>`,
+    ),
+  );
+
+  return booking;
+}
+
+function escapeHtml(text: string): string {
+  return text.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 }
 
 export async function list(filters: { status?: string; page?: number }) {

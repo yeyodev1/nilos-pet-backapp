@@ -1,6 +1,6 @@
 import mongoose, { Schema, Types } from "mongoose";
 
-export const PRODUCT_TYPES = ["physical", "service"] as const;
+export const PRODUCT_TYPES = ["physical", "service", "exam"] as const;
 export type ProductType = (typeof PRODUCT_TYPES)[number];
 
 export interface IProductImage {
@@ -22,6 +22,14 @@ export interface IProduct {
   isFeatured: boolean;
   /** Solo servicios: si exige elegir sucursal y fecha al comprar. */
   bookable: boolean;
+  /** Porcentaje de descuento (0-90) sobre price. */
+  discount: number;
+  /** El precio es un "desde": depende de peso, tamaño, etc. */
+  priceFrom: boolean;
+  /** Se puede cobrar en línea. Falso = solo reserva o WhatsApp. */
+  payOnline: boolean;
+  /** La reserva pide rango de fechas (hospedaje). */
+  dateRange: boolean;
   createdAt?: Date;
   updatedAt?: Date;
 }
@@ -47,11 +55,20 @@ const productSchema = new Schema<IProduct>(
     isPublished: { type: Boolean, default: false },
     isFeatured: { type: Boolean, default: false },
     bookable: { type: Boolean, default: false },
+    discount: { type: Number, default: 0, min: 0, max: 90 },
+    priceFrom: { type: Boolean, default: false },
+    payOnline: { type: Boolean, default: true },
+    dateRange: { type: Boolean, default: false },
   },
   { timestamps: true },
 );
 
 productSchema.index({ name: "text" });
+
+/** Precio que se cobra, en centavos, con el descuento aplicado. */
+export function finalPrice(product: { price: number; discount?: number }): number {
+  return Math.round((product.price * (100 - (product.discount || 0))) / 100);
+}
 
 export const Product =
   mongoose.models.Product || mongoose.model<IProduct>("Product", productSchema);

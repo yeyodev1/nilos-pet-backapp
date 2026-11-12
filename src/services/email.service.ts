@@ -53,7 +53,7 @@ export async function sendOrderConfirmation(order: {
   const rows = order.items
     .map((item) => {
       const cita = item.scheduledFor
-        ? `<br/><span style="color:#71717a;font-size:12px">Cita: ${new Date(item.scheduledFor).toLocaleString("es-EC", { timeZone: "America/Guayaquil" })}</span>`
+        ? `<br/><span style="color:#71717a;font-size:12px">Cita: ${new Date(item.scheduledFor).toLocaleDateString("es-EC", { timeZone: "America/Guayaquil" })}</span>`
         : "";
       return `<tr>
         <td style="padding:8px 0;border-bottom:1px solid #e4e4e7">${item.name} × ${item.qty}${cita}</td>

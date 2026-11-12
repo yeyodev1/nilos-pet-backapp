@@ -130,6 +130,10 @@ interface ProductInput {
   isPublished?: boolean;
   isFeatured?: boolean;
   bookable?: boolean;
+  discount?: number;
+  priceFrom?: boolean;
+  payOnline?: boolean;
+  dateRange?: boolean;
 }
 
 async function resolveCategory(categoryId: string | null | undefined) {
@@ -143,6 +147,14 @@ function parsePrice(price: unknown): number {
   const value = Number(price);
   if (!Number.isInteger(value) || value < 0) {
     throw new CustomError("El precio debe ser un entero en centavos, mayor o igual a 0", 400);
+  }
+  return value;
+}
+
+function parseDiscount(discount: unknown): number {
+  const value = Number(discount);
+  if (!Number.isInteger(value) || value < 0 || value > 90) {
+    throw new CustomError("El descuento debe ser un porcentaje entero entre 0 y 90", 400);
   }
   return value;
 }
@@ -171,6 +183,10 @@ export async function create(input: ProductInput) {
     isPublished: Boolean(input.isPublished),
     isFeatured: Boolean(input.isFeatured),
     bookable: Boolean(input.bookable),
+    discount: input.discount !== undefined ? parseDiscount(input.discount) : 0,
+    priceFrom: Boolean(input.priceFrom),
+    payOnline: input.payOnline !== undefined ? Boolean(input.payOnline) : true,
+    dateRange: Boolean(input.dateRange),
   });
 }
 
@@ -203,6 +219,10 @@ export async function update(id: string, input: ProductInput) {
   if (input.isPublished !== undefined) product.isPublished = Boolean(input.isPublished);
   if (input.isFeatured !== undefined) product.isFeatured = Boolean(input.isFeatured);
   if (input.bookable !== undefined) product.bookable = Boolean(input.bookable);
+  if (input.discount !== undefined) product.discount = parseDiscount(input.discount);
+  if (input.priceFrom !== undefined) product.priceFrom = Boolean(input.priceFrom);
+  if (input.payOnline !== undefined) product.payOnline = Boolean(input.payOnline);
+  if (input.dateRange !== undefined) product.dateRange = Boolean(input.dateRange);
 
   await product.save();
   return product.populate("category", "name slug");

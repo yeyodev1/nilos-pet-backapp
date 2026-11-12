@@ -1,5 +1,6 @@
 import { CustomError } from "../errors/customError.error";
 import { Branch } from "../models/branch.model";
+import { uploadBuffer } from "./cloudinary.service";
 
 /** Público: solo sucursales activas. */
 export async function listActive() {
@@ -17,6 +18,8 @@ export async function create(input: {
   city?: string;
   phone?: string;
   mapsUrl?: string;
+  coords?: string;
+  hours?: string;
   isActive?: boolean;
 }) {
   const name = String(input.name ?? "").trim();
@@ -28,6 +31,8 @@ export async function create(input: {
     city: String(input.city ?? ""),
     phone: String(input.phone ?? ""),
     mapsUrl: String(input.mapsUrl ?? ""),
+    coords: String(input.coords ?? ""),
+    hours: String(input.hours ?? ""),
     isActive: input.isActive !== undefined ? Boolean(input.isActive) : true,
   });
 }
@@ -40,6 +45,8 @@ export async function update(
     city?: string;
     phone?: string;
     mapsUrl?: string;
+    coords?: string;
+    hours?: string;
     isActive?: boolean;
   },
 ) {
@@ -55,6 +62,8 @@ export async function update(
   if (input.city !== undefined) branch.city = String(input.city);
   if (input.phone !== undefined) branch.phone = String(input.phone);
   if (input.mapsUrl !== undefined) branch.mapsUrl = String(input.mapsUrl);
+  if (input.coords !== undefined) branch.coords = String(input.coords);
+  if (input.hours !== undefined) branch.hours = String(input.hours);
   if (input.isActive !== undefined) branch.isActive = Boolean(input.isActive);
 
   await branch.save();
@@ -66,6 +75,15 @@ export async function remove(id: string) {
   if (!branch) throw new CustomError("Sucursal no encontrada", 404);
   // Borrarla rompería órdenes y reservas históricas: se desactiva en su lugar.
   branch.isActive = false;
+  await branch.save();
+  return branch;
+}
+
+/** Foto de portada de la sucursal. */
+export async function setImage(id: string, buffer: Buffer) {
+  const branch = await Branch.findById(id);
+  if (!branch) throw new CustomError("Sucursal no encontrada", 404);
+  branch.image = (await uploadBuffer(buffer, "nilos-pet/sucursales")).url;
   await branch.save();
   return branch;
 }

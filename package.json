@@ -15,6 +15,7 @@
     "seed:admin": "ts-node-dev --transpile-only src/scripts/seed-admin.ts",
     "format": "prettier --write 'src/**/*.{ts,json,md}' 'api/**/*.ts'",
     "seed:catalog": "ts-node-dev --transpile-only src/scripts/seed-catalog.ts",
+    "seed:feedback": "ts-node-dev --transpile-only src/scripts/seed-feedback.ts",
     "seed:customer": "ts-node-dev --transpile-only src/scripts/seed-customer.ts"
   },
   "dependencies": {
