@@ -134,6 +134,7 @@ interface ProductInput {
   priceFrom?: boolean;
   payOnline?: boolean;
   dateRange?: boolean;
+  subgroup?: string;
 }
 
 async function resolveCategory(categoryId: string | null | undefined) {
@@ -187,6 +188,7 @@ export async function create(input: ProductInput) {
     priceFrom: Boolean(input.priceFrom),
     payOnline: input.payOnline !== undefined ? Boolean(input.payOnline) : true,
     dateRange: Boolean(input.dateRange),
+    subgroup: String(input.subgroup ?? "").trim(),
   });
 }
 
@@ -223,6 +225,7 @@ export async function update(id: string, input: ProductInput) {
   if (input.priceFrom !== undefined) product.priceFrom = Boolean(input.priceFrom);
   if (input.payOnline !== undefined) product.payOnline = Boolean(input.payOnline);
   if (input.dateRange !== undefined) product.dateRange = Boolean(input.dateRange);
+  if (input.subgroup !== undefined) product.subgroup = String(input.subgroup).trim();
 
   await product.save();
   return product.populate("category", "name slug");

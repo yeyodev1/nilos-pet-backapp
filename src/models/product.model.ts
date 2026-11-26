@@ -30,6 +30,8 @@ export interface IProduct {
   payOnline: boolean;
   /** La reserva pide rango de fechas (hospedaje). */
   dateRange: boolean;
+  /** Solo exámenes: subgrupo dentro de su grupo (p. ej. "Bioquímica" en Exámenes de sangre). */
+  subgroup: string;
   createdAt?: Date;
   updatedAt?: Date;
 }
@@ -59,6 +61,7 @@ const productSchema = new Schema<IProduct>(
     priceFrom: { type: Boolean, default: false },
     payOnline: { type: Boolean, default: true },
     dateRange: { type: Boolean, default: false },
+    subgroup: { type: String, default: "", trim: true },
   },
   { timestamps: true },
 );

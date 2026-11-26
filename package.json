@@ -16,6 +16,7 @@
     "format": "prettier --write 'src/**/*.{ts,json,md}' 'api/**/*.ts'",
     "seed:catalog": "ts-node-dev --transpile-only src/scripts/seed-catalog.ts",
     "seed:feedback": "ts-node-dev --transpile-only src/scripts/seed-feedback.ts",
+    "seed:photos": "ts-node-dev --transpile-only src/scripts/seed-photos.ts",
     "seed:customer": "ts-node-dev --transpile-only src/scripts/seed-customer.ts"
   },
   "dependencies": {
