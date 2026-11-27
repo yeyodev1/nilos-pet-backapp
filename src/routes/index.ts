@@ -7,6 +7,7 @@ import branchRoutes from "./branch.routes";
 import orderRoutes from "./order.routes";
 import bookingRoutes from "./booking.routes";
 import examResultRoutes from "./examResult.routes";
+import customerRoutes from "./customer.routes";
 import adminRoutes from "./admin.routes";
 import { authMiddleware } from "../middlewares/auth.middleware";
 import * as bannerController from "../controllers/banner.controller";
@@ -24,6 +25,7 @@ function routerApi(app: Application) {
   router.use("/orders", orderRoutes);
   router.use("/bookings", bookingRoutes);
   router.use("/exam-results", examResultRoutes);
+  router.use("/customers", customerRoutes);
   router.get("/banners", bannerController.listActive);
   router.get("/reviews", reviewController.listPublic);
   router.post("/reviews", authMiddleware, reviewController.upsertMine);
